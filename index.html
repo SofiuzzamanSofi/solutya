@@ -1,0 +1,2507 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <title>Solutya-Kavinax</title>
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Helvetica:wght@700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gordita:wght@400;500;700&display=swap" />
+</head>
+
+<body>
+  <div class="relative bg-white1 w-full flex flex-col items-center justify-start tracking-[normal]">
+
+
+    <header
+      class="self-stretch flex flex-col items-start justify-start py-0 pr-px pl-0 box-border max-w-full shrink-0 text-left text-base text-white font-manrope">
+      <!-- header 1  -->
+      <div
+        class="self-stretch bg-blue flex flex-row items-start justify-center p-5 box-border gap-[195px] max-w-full z-[3] mq450:gap-[24px] mq900:gap-[49px] mq1325:flex-wrap mq1325:gap-[97px]">
+        <div class="relative bg-blue w-[1920px] h-[90px] hidden max-w-full"></div>
+        <div class="flex flex-row items-start justify-start gap-[21px] max-w-full mq900:flex-wrap">
+          <div class="flex flex-row items-center justify-start gap-[16px]">
+            <img class="relative w-[50px] h-[50px] z-[1]" alt="" src="/public/location.svg" />
+
+            <div class="relative whitespace-nowrap z-[1]">
+              7124 Landmark Tower,New York
+            </div>
+          </div>
+          <div class="flex flex-row items-center justify-start gap-[15px]">
+            <img class="relative w-[50px] h-[50px] z-[1]" alt="" src="/public/email-icon.svg" />
+
+            <div class="relative whitespace-nowrap z-[1]">
+              support@yourdomain.com
+            </div>
+          </div>
+          <div class="flex flex-row items-center justify-start gap-[15px]">
+            <img class="relative w-[50px] h-[50px] z-[1]" alt="" src="/public/phone.svg" />
+
+            <div class="relative whitespace-nowrap z-[1]">+61383766284</div>
+          </div>
+        </div>
+        <div class="flex flex-row items-start justify-start gap-[20px] max-w-full">
+          <img class="relative w-[50px] h-[50px] min-h-[50px] z-[1]" alt="" src="/public/facebook.svg" />
+
+          <img class="relative w-[50px] h-[50px] min-h-[50px] z-[1]" alt="" src="/public/instagram.svg" />
+
+          <img class="relative w-[50px] h-[50px] min-h-[50px] z-[1]" alt="" src="/public/twitter.svg" />
+
+          <img class="relative w-[50px] h-[50px] min-h-[50px] z-[1]" alt="" src="/public/linkdin.svg" />
+
+          <img class="relative w-[50px] h-[50px] min-h-[50px] z-[1]" alt="" src="/public/youtube.svg" />
+        </div>
+      </div>
+      <!-- header 2  -->
+      <div class="self-stretch h-[130px] sticky bg-white top-[0] z-[99] max-w-full text-blue">
+        <div class="absolute top-[0px] left-[0px] bg-white w-full h-full hidden"></div>
+        <div
+          class="absolute top-[55px] left-[640px] w-[638px] h-5 flex flex-row items-center justify-between py-0 pr-0.5 pl-0 box-border gap-[20px] max-w-full">
+          <div class="h-[17px] flex flex-col items-start justify-start gap-[3px] text-orange">
+            <b class="relative inline-block pr-0.5 z-[1]">Home</b>
+            <img class="relative w-12 h-[1.6px] z-[1]" alt="" src="/public/design.svg" />
+          </div>
+          <div class="relative font-medium flex items-center h-[13.2px] whitespace-nowrap z-[1]">
+            About Us
+          </div>
+          <div class="h-3 flex flex-col items-start justify-start py-0 pr-1 pl-0 box-border">
+            <div class="flex-1 relative leading-[24px] font-medium flex items-center z-[1]">
+              Property
+            </div>
+          </div>
+          <div class="flex flex-row items-end justify-start gap-[6px]">
+            <div class="relative leading-[24px] font-medium flex items-center h-3 z-[1]">
+              Pages
+            </div>
+            <img class="relative w-2.5 h-2.5 z-[1]" alt="" src="/public/property.svg" />
+          </div>
+          <div class="self-stretch flex flex-col items-start justify-start py-0 pr-1 pl-0">
+            <div class="flex-1 relative leading-[24px] font-medium flex items-center z-[1]">
+              Blog
+            </div>
+          </div>
+          <div class="relative leading-[24px] font-medium flex items-center h-[11px] z-[1]">
+            Contact
+          </div>
+        </div>
+        <div
+          class="absolute top-[40px] left-[1410px] flex flex-row items-center justify-start py-0 pr-px pl-0 gap-[22px]">
+          <div class="relative whitespace-nowrap z-[1]">Sign In</div>
+          <button
+            class="cursor-pointer [border:none] pt-[19px] pb-[18px] pr-[7px] pl-3 bg-[transparent] flex flex-row items-center justify-center relative whitespace-nowrap z-[1]">
+            <div
+              class="absolute my-0 mx-[!important] h-full w-full top-[0px] right-[0.2px] bottom-[0px] left-[-0.2px] rounded-sm bg-orange">
+            </div>
+            <div
+              class="relative text-base leading-[24px] font-medium font-manrope text-white text-left flex items-center h-[13px] z-[1]">
+              Add Property
+            </div>
+          </button>
+        </div>
+        <img class="absolute top-[40.1px] left-[330.8px] w-[54.3px] h-[49.7px] z-[1]" alt="" src="/public/group.svg" />
+
+        <div class="absolute top-[40px] left-[300px] flex flex-row items-end justify-start gap-[5px] text-5xl">
+          <img class="relative w-[54.3px] h-[49.7px] z-[2]" alt="" src="/public/vector-1.svg" />
+
+          <div class="flex flex-col items-start justify-start pt-0 px-0 pb-[7px]">
+            <h3 class="m-0 relative text-inherit font-bold font-inherit whitespace-nowrap z-[2]">
+              Kavinax
+            </h3>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <form
+      class="m-0 self-stretch flex flex-col items-center justify-end pt-[526px] px-5 pb-[168px] box-border relative min-h-[950px] max-w-full shrink-0 mq450:pt-[222px] mq450:pb-[71px] mq450:box-border mq900:pt-[342px] mq900:pb-[109px] mq900:box-border">
+      <div
+        class="my-0 mx-[!important] absolute h-[calc(100%_-_150px)] top-[0px] right-[0px] bottom-[150px] w-[1034px] flex flex-row items-center justify-end py-[350px] px-[66px] box-border bg-[url('/public/rectangle-4612@2x.png')] bg-cover bg-no-repeat bg-[top] max-w-full">
+        <img class="relative max-h-full w-[1034px] object-cover hidden max-w-full" alt=""
+          src="/public/rectangle-4612@2x.png" />
+
+        <img class="relative w-[100px] h-[100px] z-[1]" loading="eager" alt="" src="/public/rhs-arrow.svg" />
+      </div>
+      <div
+        class="bg-orange w-[1033px] flex flex-row flex-wrap items-start justify-start py-[22px] px-5 box-border gap-[31px] max-w-full z-[2] mq900:gap-[15px]">
+        <div class="relative bg-orange w-[1032px] h-[106.6px] hidden max-w-full"></div>
+        <div
+          class="flex-1 flex flex-row items-start justify-start gap-[31px] min-w-[247px] max-w-full mq450:flex-wrap mq450:gap-[15px]">
+          <div
+            class="flex-1 flex flex-col items-start justify-start py-0 pr-px pl-0 box-border gap-[10px] min-w-[114px]">
+            <div
+              class="relative text-base leading-[32px] font-manrope text-white1 text-left flex items-center h-[19px] shrink-0 z-[3]">
+              Type
+            </div>
+            <div
+              class="self-stretch bg-white flex flex-row items-center justify-between pt-[7px] pb-2 pr-[7px] pl-[9px] gap-[20px] z-[3]">
+              <div class="relative bg-white w-[174px] h-[33.4px] hidden"></div>
+              <input
+                class="w-[calc(100%_-_29.9px)] [border:none] [outline:none] font-manrope text-xs bg-[transparent] relative leading-[32px] text-blue text-left flex items-center h-[18.5px] z-[1]"
+                placeholder="Property Type" type="text" />
+
+              <img class="relative w-[13.9px] h-[13.9px] z-[1]" alt="" src="/public/vector-2.svg" />
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[114px]">
+            <div
+              class="relative text-base leading-[32px] font-manrope text-white1 text-left flex items-center h-[19px] shrink-0 z-[3]">
+              Your Location
+            </div>
+            <div
+              class="self-stretch bg-white flex flex-row items-center justify-between pt-[7px] pb-2 pr-2 pl-[9px] gap-[20px] z-[3]">
+              <div class="relative bg-white w-[174px] h-[33.4px] hidden"></div>
+              <input
+                class="w-[calc(100%_-_30.9px)] [border:none] [outline:none] font-manrope text-xs bg-[transparent] relative leading-[32px] text-blue text-left flex items-center h-[18.5px] z-[1]"
+                placeholder="Your Location" type="text" />
+
+              <img class="relative w-[13.9px] h-[13.9px] z-[1]" alt="" src="/public/vector-2.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-start justify-start gap-[10px]">
+          <div
+            class="relative text-base leading-[32px] font-manrope text-white1 text-left flex items-center h-[19px] shrink-0 z-[3]">
+            Bed/Bathrooms
+          </div>
+          <button
+            class="cursor-pointer [border:none] pt-[7px] pb-2 pr-[9px] pl-2 bg-white flex flex-row items-center justify-start gap-[8px] whitespace-nowrap z-[3] hover:bg-gainsboro">
+            <div class="relative bg-white w-[174px] h-[33.4px] hidden"></div>
+            <div
+              class="relative text-xs leading-[32px] font-manrope text-blue text-left flex items-center h-[18px] z-[1]">
+              00 Bed / 00 Bathrooms
+            </div>
+            <img class="relative w-[13.9px] h-[13.9px] z-[1]" alt="" src="/public/vector-2.svg" />
+          </button>
+        </div>
+        <div class="w-[188px] flex flex-col items-start justify-start py-0 pr-[13px] pl-0 box-border gap-[10px]">
+          <div
+            class="relative text-base leading-[32px] font-manrope text-white1 text-left flex items-center h-[19px] shrink-0 z-[3]">
+            Price
+          </div>
+          <div
+            class="self-stretch bg-white flex flex-row items-center justify-between pt-[7px] pb-2 pr-[9px] pl-2 gap-[20px] z-[3]">
+            <div class="relative bg-white w-[174px] h-[33.4px] hidden"></div>
+            <input
+              class="w-[calc(100%_-_30.9px)] [border:none] [outline:none] font-manrope text-sm bg-[transparent] relative leading-[32px] text-blue text-left flex items-center h-[18px] z-[1]"
+              placeholder="Price" type="text" />
+
+            <img class="relative w-[13.9px] h-[13.9px] z-[1]" alt="" src="/public/vector-2.svg" />
+          </div>
+        </div>
+        <button
+          class="cursor-pointer [border:none] py-0 pr-0 pl-4 bg-white w-[159px] flex flex-row items-center justify-start box-border gap-[29px] z-[3]">
+          <div class="self-stretch relative bg-white w-[158.7px] hidden"></div>
+          <div class="h-5 flex flex-col items-start justify-start pt-0 px-0 pb-1.5 box-border">
+            <div
+              class="flex-1 relative text-base leading-[32px] font-manrope text-blue text-left flex items-center z-[1]">
+              Search
+            </div>
+          </div>
+          <div class="flex-1 bg-blue flex flex-row items-center justify-center pt-[19px] px-[19px] pb-[23px] z-[1]">
+            <div class="relative bg-blue w-[58.8px] h-[62.3px] hidden"></div>
+            <img class="relative w-[19px] h-5 z-[1]" alt="" src="/public/icon.svg" />
+          </div>
+        </button>
+      </div>
+      <div
+        class="my-0 mx-[!important] absolute h-[calc(100%_-_149px)] top-[0px] bottom-[149px] left-[0px] w-[1138px] flex flex-col items-center justify-start pt-[169px] pb-[275px] pr-[226px] pl-[65px] box-border gap-[21px] max-w-full">
+        <img
+          class="absolute my-0 mx-[!important] h-full w-full top-[0px] right-[-0.7px] bottom-[1px] left-[0.3px] max-w-full overflow-hidden max-h-full z-[1]"
+          alt="" src="/public/group-1000005951.svg" />
+
+        <div class="w-[686px] flex flex-row items-start justify-end max-w-full">
+          <h1
+            class="m-0 relative text-[64px] leading-[80px] font-bold font-helvetica text-white text-left flex items-center z-[2] mq450:text-19xl mq450:leading-[48px] mq900:text-[51px] mq900:leading-[64px]">
+            <span class="[line-break:anywhere]">
+              <p class="m-0">Discover Most</p>
+              <p class="m-0">Suitable Property</p>
+            </span>
+          </h1>
+        </div>
+        <div
+          class="self-stretch flex flex-row items-start justify-between py-0 pr-px pl-0 box-border gap-[20px] max-w-full mq1325:flex-wrap">
+          <img class="relative w-[100px] h-[100px] z-[2]" alt="" src="/public/rhs-arrow-1.svg" />
+
+          <div class="w-[612px] flex flex-col items-start justify-start pt-[9px] px-0 pb-0 box-border max-w-full">
+            <div class="self-stretch flex flex-col items-start justify-start gap-[44px] max-w-full">
+              <div
+                class="relative text-lg leading-[32px] font-manrope text-white text-left inline-block h-[60.2px] shrink-0 z-[2]">
+                <p class="m-0">
+                  <span class="uppercase">L</span>
+                  <span class="lowercase">orem ipsum dolor sit amet consectetur adipiscing elit sed
+                    do eiusmt</span>
+                </p>
+                <p class="m-0 lowercase">
+                  mod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div
+                class="bg-orange w-[388px] flex flex-row items-end justify-start pt-0 px-5 pb-[13px] box-border gap-[27px] max-w-full z-[2] mq900:flex-wrap">
+                <div class="relative bg-orange w-[388px] h-[62.8px] hidden max-w-full"></div>
+                <div class="h-[25px] flex flex-col items-start justify-start pt-0 px-0 pb-3 box-border">
+                  <div
+                    class="flex-1 relative text-lg leading-[32px] font-manrope text-white text-left flex items-center z-[3]">
+                    Sell
+                  </div>
+                </div>
+                <button
+                  class="cursor-pointer [border:none] pt-6 pb-[11px] pr-2 pl-1.5 bg-white rounded-t-none rounded-b-3xs flex flex-row items-end justify-center z-[3] hover:bg-gainsboro">
+                  <div class="relative rounded-t-none rounded-b-3xs bg-white w-[57.3px] h-[49px] hidden"></div>
+                  <b
+                    class="relative text-lg leading-[32px] flex font-manrope text-orange text-left items-center h-3.5 z-[4]">Rent</b>
+                </button>
+                <div class="h-[25px] flex flex-col items-start justify-start pt-0 px-0 pb-3 box-border">
+                  <div
+                    class="flex-1 relative text-lg leading-[32px] font-manrope text-white text-left flex items-center z-[3]">
+                    Buy
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <section
+      class="w-[1363px] flex flex-col items-end justify-start py-0 px-5 box-border gap-[52px] min-h-[440px] max-w-full shrink-0 text-left text-29xl text-blue font-helvetica mq900:gap-[26px]">
+      <div
+        class="self-stretch flex flex-row items-center justify-between py-0 pr-px pl-0 box-border gap-[20px] max-w-full mq900:flex-wrap">
+        <h1
+          class="m-0 relative text-inherit leading-[68px] font-bold font-inherit flex items-center h-[58.8px] max-w-full mq450:text-10xl mq450:leading-[41px] mq900:text-19xl mq900:leading-[54px]">
+          Browse By Categories
+        </h1>
+        <div class="flex flex-row items-start justify-start py-0 pr-px pl-0 gap-[19px]">
+          <img class="relative rounded-11xl w-[50px] h-[50px] overflow-hidden shrink-0 min-h-[50px]" alt=""
+            src="/public/rhs-arrow-icon.svg" />
+
+          <img class="relative rounded-11xl w-[50px] h-[50px] overflow-hidden shrink-0 min-h-[50px]" alt=""
+            src="/public/lhs-arrow-icon.svg" />
+        </div>
+      </div>
+      <div
+        class="self-stretch flex flex-row flex-wrap items-start justify-start gap-[30px] max-w-full text-base font-manrope">
+        <div
+          class="flex-1 rounded-8xs bg-ash-color flex flex-row items-center justify-start py-0 pr-[17px] pl-0 box-border gap-[16px] min-w-[315px] max-w-full mq450:flex-wrap mq450:pl-[17px] mq450:pt-[17px] mq450:box-border">
+          <div class="self-stretch relative rounded-8xs bg-ash-color w-[419.8px] hidden max-w-full"></div>
+          <img class="relative rounded-8xs w-[195px] h-[199.8px] object-cover z-[1] mq450:flex-1" loading="eager" alt=""
+            src="/public/image@2x.png" />
+
+          <div class="flex-1 flex flex-col items-start justify-start py-5 px-0 box-border gap-[20px] min-w-[125px]">
+            <b class="relative text-xl leading-[28px] z-[1] mq450:text-base mq450:leading-[22px]">
+              <span class="uppercase">a</span>ppartment
+            </b>
+            <div class="self-stretch relative leading-[28px] text-black z-[1]">
+              <span class="uppercase">L</span>
+              <span class="lowercase">orem ipsum dolor sitam consectetur elit.</span>
+            </div>
+            <div class="relative leading-[28px] capitalize flex items-center h-[18.6px] shrink-0 z-[1]">
+              22 Property
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex-1 rounded-8xs bg-ash-color flex flex-row items-center justify-start py-0 pr-[17px] pl-0 box-border gap-[16px] min-w-[315px] max-w-full mq450:flex-wrap mq450:pl-[17px] mq450:pt-[17px] mq450:box-border">
+          <div class="self-stretch relative rounded-8xs bg-ash-color w-[419.8px] hidden max-w-full"></div>
+          <img class="relative rounded-8xs w-[195px] h-[199.8px] object-cover z-[1] mq450:flex-1" alt=""
+            src="/public/image-1@2x.png" />
+
+          <div class="flex-1 flex flex-col items-start justify-start py-5 px-0 box-border gap-[20px] min-w-[125px]">
+            <b class="relative text-xl leading-[28px] capitalize z-[1] mq450:text-base mq450:leading-[22px]">Duplex
+              House</b>
+            <div class="self-stretch relative leading-[28px] text-black z-[1]">
+              <span class="uppercase">L</span>
+              <span class="lowercase">orem ipsum dolor sitam consectetur elit.</span>
+            </div>
+            <div class="relative leading-[28px] capitalize flex items-center h-[18.6px] shrink-0 z-[1]">
+              25 Property
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex-1 rounded-8xs bg-ash-color flex flex-row items-center justify-start py-0 pr-[17px] pl-0 box-border gap-[16px] min-w-[315px] max-w-full mq450:flex-wrap mq450:pl-[17px] mq450:pt-[17px] mq450:box-border">
+          <div class="self-stretch relative rounded-8xs bg-ash-color w-[419.8px] hidden max-w-full"></div>
+          <img class="relative rounded-8xs w-[195px] h-[199.8px] object-cover z-[1] mq450:flex-1" alt=""
+            src="/public/image-2@2x.png" />
+
+          <div class="flex-1 flex flex-col items-start justify-start py-5 px-0 box-border gap-[20px] min-w-[125px]">
+            <b class="relative text-xl leading-[28px] capitalize z-[1] mq450:text-base mq450:leading-[22px]">Office</b>
+            <div class="self-stretch relative leading-[28px] text-black z-[1]">
+              <span class="uppercase">L</span>
+              <span class="lowercase">orem ipsum dolor sitam consectetur elit.</span>
+            </div>
+            <div class="relative leading-[28px] capitalize flex items-center h-[18.6px] shrink-0 z-[1]">
+              30 Property
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="relative w-[1400px] h-[1777px] max-w-full text-left text-xl text-black font-manrope mq1325:h-auto mq1325:min-h-[1777]">
+      <h1
+        class="m-0 absolute top-[1036.9px] left-[37.8px] text-29xl leading-[68px] capitalize font-bold font-inherit flex items-center w-[378px] h-[38.7px] mq450:text-10xl mq450:leading-[41px] mq900:text-19xl mq900:leading-[54px]">
+        Our Main Focus
+      </h1>
+      <b
+        class="absolute top-[980.8px] left-[38.8px] flex font-helvetica text-blue items-center w-[124.5px] h-4 mq450:text-base">Our
+        Services</b>
+      <img class="absolute top-[1003.9px] left-[39.8px] w-[124.5px] h-[3px]" alt="" src="/public/design-1.svg" />
+
+      <img class="absolute top-[1003.3px] left-[1239.8px] rounded-11xl w-[50px] h-[50px] overflow-hidden" alt=""
+        src="/public/rhs-arrow-icon.svg" />
+
+      <img class="absolute top-[1003.3px] left-[1309.8px] rounded-11xl w-[50px] h-[50px] overflow-hidden" alt=""
+        src="/public/lhs-arrow-icon.svg" />
+
+      <div
+        class="absolute top-[1136px] left-[40px] w-[1320px] grid flex-row items-start justify-start py-0 pr-px pl-0 box-border gap-[29px] max-w-full grid-cols-[repeat(3,_minmax(315px,_1fr))] text-blue font-helvetica mq900:grid-cols-[minmax(315px,_1fr)] mq1325:justify-center mq1325:grid-cols-[repeat(2,_minmax(315px,_546px))]">
+        <div
+          class="bg-ash-color flex flex-col items-center justify-start pt-0 px-0 pb-[25px] box-border gap-[21px] max-w-full">
+          <div class="self-stretch relative bg-ash-color h-[490.4px] hidden"></div>
+          <img class="self-stretch relative max-w-full overflow-hidden h-[235.4px] shrink-0 object-cover z-[1]"
+            loading="eager" alt="" src="/public/rectangle-4627@2x.png" />
+
+          <div class="self-stretch flex flex-col items-center justify-start py-0 px-5 gap-[45px]">
+            <div class="self-stretch flex flex-col items-center justify-start gap-[25px]">
+              <div class="flex flex-row items-center justify-start gap-[21px]">
+                <img class="relative w-[41.3px] h-[37.2px] z-[1]" alt="" src="/public/icon-1.svg" />
+
+                <b class="relative z-[1] mq450:text-base">Buy a property</b>
+              </div>
+              <div class="relative text-base leading-[28px] font-manrope text-paragraph-text-color text-center z-[1]">
+                <p class="m-0">
+                  <span class="uppercase">L</span>
+                  <span class="lowercase">orem ipsum dolor sit amet consectetur adipisin</span>
+                </p>
+                <p class="m-0 lowercase">
+                  cing elit sed do eiusmod tempor incididunt utlrul labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div
+              class="rounded-10xs box-border w-[106px] flex flex-row items-center justify-center py-0.5 pr-px pl-[5px] z-[1] text-base text-orange font-manrope border-[1px] border-solid border-orange">
+              <div class="relative leading-[28px]">
+                <span class="uppercase">F</span>
+                <span class="lowercase">ind a home</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-ash-color flex flex-col items-center justify-start pt-0 px-0 pb-[25px] box-border gap-[21px] max-w-full">
+          <div class="self-stretch relative bg-ash-color h-[490.4px] hidden"></div>
+          <img class="self-stretch relative max-w-full overflow-hidden h-[235.4px] shrink-0 object-cover z-[1]" alt=""
+            src="/public/rectangle-4627-1@2x.png" />
+
+          <div class="self-stretch flex flex-col items-center justify-start py-0 px-5 gap-[45px]">
+            <div class="self-stretch flex flex-col items-center justify-start gap-[25px]">
+              <div class="flex flex-row items-center justify-start py-0 pr-px pl-0 gap-[20px]">
+                <img class="relative w-[41.3px] h-[37.2px] z-[1]" alt="" src="/public/icon-1.svg" />
+
+                <b class="relative z-[1] mq450:text-base">Sell A Property</b>
+              </div>
+              <div class="relative text-base leading-[28px] font-manrope text-paragraph-text-color text-center z-[1]">
+                <p class="m-0">
+                  <span class="uppercase">L</span>
+                  <span class="lowercase">orem ipsum dolor sit amet consectetur adipisin</span>
+                </p>
+                <p class="m-0 lowercase">
+                  cing elit sed do eiusmod tempor incididunt utlrul labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div
+              class="rounded-10xs box-border w-[106px] flex flex-row items-center justify-center py-0.5 pr-0 pl-[5px] z-[1] text-base text-orange font-manrope border-[1px] border-solid border-orange">
+              <div class="relative leading-[28px]">
+                <span class="uppercase">F</span>
+                <span class="lowercase">ind a home</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-ash-color flex flex-col items-center justify-start pt-0 px-0 pb-[25px] box-border gap-[21px] max-w-full">
+          <div class="self-stretch relative bg-ash-color h-[490.4px] hidden"></div>
+          <img class="self-stretch relative max-w-full overflow-hidden h-[235.4px] shrink-0 object-cover z-[1]" alt=""
+            src="/public/rectangle-4627-2@2x.png" />
+
+          <div class="self-stretch flex flex-col items-center justify-start py-0 px-5 gap-[45px]">
+            <div class="self-stretch flex flex-col items-center justify-start gap-[25px]">
+              <div class="flex flex-row items-start justify-start py-0 pr-0 pl-[9px]">
+                <div class="flex flex-row items-center justify-start gap-[21px]">
+                  <img class="relative w-[41.3px] h-[37.2px] z-[1]" alt="" src="/public/icon-1.svg" />
+
+                  <b class="relative z-[1] mq450:text-base">Rent A Property</b>
+                </div>
+              </div>
+              <div class="relative text-base leading-[28px] font-manrope text-paragraph-text-color text-center z-[1]">
+                <p class="m-0">
+                  <span class="uppercase">L</span>
+                  <span class="lowercase">orem ipsum dolor sit amet consectetur adipisin</span>
+                </p>
+                <p class="m-0 lowercase">
+                  cing elit sed do eiusmod tempor incididunt utlrul labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div
+              class="rounded-10xs box-border w-[107px] flex flex-row items-center justify-center py-0.5 pr-px pl-[5px] z-[1] text-base text-orange font-manrope border-[1px] border-solid border-orange">
+              <div class="relative leading-[28px]">
+                <span class="uppercase">F</span>
+                <span class="lowercase">ind a home</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="absolute top-[-0.5px] left-[19.8px] rounded-8xs box-border w-[1360px] overflow-hidden flex flex-row items-start justify-center p-5 min-h-[1683px] max-w-full z-[1] border-[1px] border-dashed border-blueviolet">
+        <div class="flex-1 flex flex-row flex-wrap items-center justify-start gap-[30px] max-w-full">
+          <img class="flex-1 relative max-w-full overflow-hidden h-[811.3px] min-w-[419px] mq900:min-w-full" alt=""
+            src="/public/image-3.svg" />
+
+          <div
+            class="flex-1 flex flex-col items-start justify-start py-5 px-0 box-border gap-[61px] min-w-[419px] max-w-full mq900:min-w-full">
+            <div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full shrink-0">
+              <div class="h-[26px] flex flex-col items-start justify-start gap-[7px] text-blue font-helvetica">
+                <b class="flex-1 relative flex items-center mq450:text-base">About Us</b>
+                <img class="relative w-[90.1px] h-[3px]" alt="" src="/public/design-2.svg" />
+              </div>
+              <h1
+                class="m-0 relative text-29xl leading-[68px] capitalize font-bold font-inherit flex items-center w-[603.5px] max-w-full mq450:text-10xl mq450:leading-[41px] mq900:text-19xl mq900:leading-[54px]">
+                <span class="w-full">
+                  <p class="m-0">We Specialize In Quality</p>
+                  <p class="m-0">Home Renovations</p>
+                </span>
+              </h1>
+              <div
+                class="self-stretch relative text-base leading-[28px] text-paragraph-text-color inline-block h-[77.1px] shrink-0">
+                <span class="uppercase">D</span>
+                <span class="lowercase">uis aute irure dolor in reprehenderit in voluptate velit
+                  esse cillum dolore eu fugiat nulla pariatur Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.</span>
+              </div>
+              <div class="flex flex-col items-start justify-start gap-[26px] max-w-full">
+                <div class="flex flex-row items-center justify-start py-0 pr-px pl-0 gap-[19px]">
+                  <img class="relative w-[30.7px] h-[30.9px] min-h-[31px]" alt="" src="/public/vector-6.svg" />
+
+                  <div class="relative leading-[28px] capitalize font-medium mq450:text-base mq450:leading-[22px]">
+                    Outstanding property
+                  </div>
+                </div>
+                <div
+                  class="flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[19px] max-w-full mq900:flex-wrap">
+                  <img class="relative w-[30.7px] h-[30.9px] min-h-[31px]" alt="" src="/public/vector-6.svg" />
+
+                  <div
+                    class="relative leading-[28px] capitalize font-medium inline-block max-w-full mq450:text-base mq450:leading-[22px]">
+                    Provide the best services for users
+                  </div>
+                </div>
+                <div
+                  class="flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[19px] max-w-full mq900:flex-wrap">
+                  <img class="relative w-[30.7px] h-[30.9px] min-h-[31px]" alt="" src="/public/vector-6.svg" />
+
+                  <div
+                    class="relative leading-[28px] capitalize font-medium inline-block max-w-full mq450:text-base mq450:leading-[22px]">
+                    Modern city location & ecceptional lifestyle
+                  </div>
+                </div>
+                <div
+                  class="flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[19px] max-w-full mq900:flex-wrap">
+                  <img class="relative w-[30.7px] h-[30.9px] min-h-[31px]" alt="" src="/public/vector-6.svg" />
+
+                  <div
+                    class="relative leading-[28px] capitalize font-medium inline-block max-w-full mq450:text-base mq450:leading-[22px]">
+                    Professional & experienced human resources
+                  </div>
+                </div>
+              </div>
+              <div
+                class="self-stretch relative text-base leading-[28px] capitalize text-paragraph-text-color inline-block h-[55.6px] shrink-0">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                odit aut fugit sed quia consequuntur magni dolores eos qui
+                ratione voluptatem sequi nesciunt.
+              </div>
+            </div>
+            <div
+              class="w-[593px] flex flex-row items-center justify-start gap-[21px] max-w-full text-justify text-[15px] text-orange mq900:flex-wrap">
+              <button
+                class="cursor-pointer [border:none] py-4 px-7 bg-blue flex flex-row items-end justify-start gap-[12px] whitespace-nowrap hover:bg-darkslateblue">
+                <div
+                  class="relative text-base leading-[28px] capitalize font-semibold font-manrope text-white text-justify">
+                  Explore More
+                </div>
+                <img class="relative w-[28.6px] h-[25px]" alt="" src="/public/icon-4.svg" />
+              </button>
+              <div
+                class="flex-1 flex flex-row items-center justify-start gap-[15px] min-w-[239px] max-w-full mq450:flex-wrap">
+                <img class="relative rounded-[50%] w-[60px] h-[60px] object-cover" alt=""
+                  src="/public/image-4@2x.png" />
+
+                <div class="flex-1 flex flex-col items-start justify-start gap-[5px] min-w-[190px]">
+                  <div class="relative capitalize">
+                    <span>
+                      <b>David Smith</b>
+                      <span class="font-medium font-manrope text-gray-100">
+                      </span>
+                    </span>
+                    <span class="text-[13px] text-black">( CEO Of Kavinax Property )</span>
+                  </div>
+                  <div class="self-stretch flex flex-row items-center justify-start gap-[10px] text-base text-black">
+                    <div class="relative w-[50px] h-[50px]">
+                      <div class="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%]">
+                        <div
+                          class="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-8xs bg-orange">
+                        </div>
+                      </div>
+                      <img
+                        class="absolute h-[53.4%] w-[53.4%] top-[23.4%] right-[23.2%] bottom-[23.2%] left-[23.4%] max-w-full overflow-hidden max-h-full z-[1]"
+                        alt="" src="/public/vector-10.svg" />
+                    </div>
+                    <div class="relative leading-[28px] capitalize">
+                      <p class="m-0">
+                        <span>
+                          <span>Call For Booking Appointment</span>
+                        </span>
+                      </p>
+                      <p class="m-0">
+                        <span>
+                          <span>Date :</span>
+                          <span class="text-gray-100"> </span>
+                        </span>
+                        <b class="font-manrope text-orange">+435 6789 4321</b>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="self-stretch flex flex-col items-center justify-start min-h-[978px] max-w-full shrink-0 text-center text-29xl text-white font-manrope">
+      <div
+        class="self-stretch flex flex-col items-center justify-start pt-[118px] px-5 pb-[296px] box-border relative gap-[26px] bg-[url('/public/image@2x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq900:pt-[77px] mq900:pb-48 mq900:box-border">
+        <img class="relative max-h-full w-[1920px] object-cover hidden max-w-full z-[0]" alt=""
+          src="/public/image@2x.png" />
+
+        <div
+          class="absolute my-0 mx-[!important] h-full w-full top-[0.1px] right-[0.2px] bottom-[1.2px] left-[-0.2px] bg-midnightblue z-[1]">
+        </div>
+        <img class="relative w-[115.7px] h-[115.7px] z-[2]" loading="eager" alt="" src="/public/play.svg" />
+
+        <h1
+          class="m-0 relative text-inherit font-bold font-inherit inline-block max-w-full z-[2] mq450:text-10xl mq900:text-19xl">
+          Watch Our Video Tutorial
+        </h1>
+      </div>
+      <div
+        class="bg-white shadow-[5px_8px_10px_rgba(0,_0,_0,_0.05)] w-[1320px] grid flex-row items-start justify-between py-[73px] pr-[34px] pl-[30px] box-border gap-[20px] max-w-full grid-cols-[repeat(4,_minmax(159px,_1fr))] z-[2] mt-[-178px] text-13xl text-orange mq450:pt-[73px] mq450:pb-[47px] mq450:box-border mq450:grid-cols-[minmax(159px,_1fr)] mq1325:justify-center mq1325:grid-cols-[repeat(2,_minmax(159px,_276px))] mq1700:w-[calc(100%_-_40px)]">
+        <div
+          class="relative bg-white shadow-[5px_8px_10px_rgba(0,_0,_0,_0.05)] w-[1319.8px] h-[415.1px] hidden max-w-full">
+        </div>
+        <div class="h-[269px] flex flex-col items-center justify-start gap-[28px]">
+          <div
+            class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-center pt-5 pb-[19px] pr-[18px] pl-[21px] relative z-[3]">
+            <img
+              class="absolute my-0 mx-[!important] top-[calc(50%_-_142.6px)] right-[-37.6px] w-[284.6px] h-[284.6px] object-contain z-[1]"
+              alt="" src="/public/group-1@2x.png" />
+
+            <div
+              class="self-stretch flex-1 flex flex-row items-center justify-end pt-[69px] pb-[70px] pr-1.5 pl-[23px] relative">
+              <img
+                class="absolute my-0 mx-[!important] h-full w-full top-[0.2px] right-[0.4px] bottom-[-0.3px] left-[-0.5px] max-w-full overflow-hidden max-h-full"
+                alt="" src="/public/group-2.svg" />
+
+              <b
+                class="self-stretch flex-1 relative flex items-center justify-center z-[2] mq450:text-lgi mq900:text-7xl">98700
+                +</b>
+            </div>
+          </div>
+          <h3 class="m-0 relative text-5xl font-semibold font-inherit text-blue z-[3] mq450:text-lgi">
+            Properties Listed
+          </h3>
+        </div>
+        <div class="h-[269px] flex flex-col items-center justify-start gap-[28px]">
+          <div
+            class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-center pt-5 pb-[19px] pr-[18px] pl-5 relative z-[3]">
+            <img
+              class="absolute my-0 mx-[!important] top-[calc(50%_-_142.4px)] right-[-38.2px] w-[284.6px] h-[284.6px] object-contain z-[1]"
+              alt="" src="/public/group-3@2x.png" />
+
+            <div
+              class="self-stretch flex-1 flex flex-row items-center justify-end pt-[69px] pb-[70px] pr-[11px] pl-6 relative">
+              <img
+                class="absolute my-0 mx-[!important] h-full w-full top-[-0.5px] right-[0.1px] bottom-[0.4px] left-[-0.2px] max-w-full overflow-hidden max-h-full"
+                alt="" src="/public/group-2.svg" />
+
+              <b
+                class="self-stretch flex-1 relative flex items-center justify-center z-[2] mq450:text-lgi mq900:text-7xl">48751
+                +</b>
+            </div>
+          </div>
+          <h3 class="m-0 relative text-5xl font-semibold font-inherit text-blue z-[3] mq450:text-lgi">
+            Properties Sold
+          </h3>
+        </div>
+        <div class="h-[268px] flex flex-col items-center justify-start gap-[27px]">
+          <div
+            class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-center pt-[19px] pb-5 pr-[18px] pl-[21px] relative z-[3]">
+            <img
+              class="absolute my-0 mx-[!important] top-[calc(50%_-_142.1px)] right-[-38.5px] w-[284.6px] h-[284.6px] object-contain z-[1]"
+              alt="" src="/public/group-5@2x.png" />
+
+            <div
+              class="self-stretch flex-1 flex flex-row items-center justify-end pt-[70px] pb-[69px] pr-1.5 pl-[23px] relative">
+              <img
+                class="absolute my-0 mx-[!important] h-full w-full top-[0.2px] right-[0.2px] bottom-[-0.3px] left-[-0.3px] max-w-full overflow-hidden max-h-full"
+                alt="" src="/public/group-2.svg" />
+
+              <b
+                class="self-stretch flex-1 relative flex items-center justify-center z-[2] mq450:text-lgi mq900:text-7xl">67845
+                +</b>
+            </div>
+          </div>
+          <h3
+            class="m-0 relative text-5xl font-semibold font-inherit text-blue flex items-center justify-center z-[3] mq450:text-lgi">
+            Satisfied Clients
+          </h3>
+        </div>
+        <div class="h-[269px] flex flex-col items-center justify-start gap-[28px]">
+          <div
+            class="flex-1 overflow-hidden flex flex-col items-center justify-center pt-5 pb-[19px] pr-[19px] pl-[21px] relative z-[3]">
+            <img
+              class="absolute my-0 mx-[!important] top-[calc(50%_-_142.4px)] left-[calc(50%_-_142.7px)] w-[284.6px] h-[284.6px] object-contain z-[1]"
+              alt="" src="/public/group-7@2x.png" />
+
+            <div
+              class="flex-1 flex flex-row items-center justify-center pt-[69px] pb-[70px] pr-[49px] pl-[50px] relative">
+              <img
+                class="absolute my-0 mx-[!important] h-full w-full top-[-0.6px] right-[-0.1px] bottom-[0.5px] left-[0px] max-w-full overflow-hidden max-h-full"
+                alt="" src="/public/group-2.svg" />
+
+              <b class="self-stretch relative flex items-center justify-center z-[2] mq450:text-lgi mq900:text-7xl">10
+                +</b>
+            </div>
+          </div>
+          <h3
+            class="m-0 relative text-5xl font-semibold font-inherit text-blue flex items-center justify-center z-[3] mq450:text-lgi">
+            Realtor Awards
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="w-[1365px] flex flex-row items-start justify-between py-0 px-5 box-border min-h-[759px] gap-[20px] max-w-full shrink-0 text-left text-5xl text-blue font-manrope mq1325:flex-wrap">
+      <div
+        class="rounded-3xs w-[495px] flex flex-col items-center justify-start pt-[68px] pb-[355px] pr-[41px] pl-5 box-border gap-[10px] bg-[url('/public/image@2x.png')] bg-cover bg-no-repeat bg-[top] min-w-[495px] max-w-full z-[1] mq900:pt-11 mq900:pb-[231px] mq900:box-border mq900:min-w-full mq1325:flex-1">
+        <img class="relative rounded-3xs max-h-full w-[494.3px] object-cover hidden max-w-full" alt=""
+          src="/public/image@2x.png" />
+
+        <img class="relative w-[179.8px] h-[46px] z-[2]" loading="eager" alt="" src="/public/group-1000005958.svg" />
+
+        <div class="flex flex-row items-start justify-start py-0 pr-1 pl-0">
+          <b class="relative leading-[40px] flex items-center h-5 z-[2] mq450:text-lgi mq450:leading-[32px]">25k+</b>
+        </div>
+        <div class="flex flex-row items-start justify-start gap-[5px]">
+          <img class="relative w-[21.1px] h-5 min-h-[20px] z-[2]" alt="" src="/public/iconlyboldstar.svg" />
+
+          <img class="relative w-[21.1px] h-5 min-h-[20px] z-[2]" alt="" src="/public/iconlyboldstar.svg" />
+
+          <img class="relative w-[21.1px] h-5 min-h-[20px] z-[2]" alt="" src="/public/iconlyboldstar.svg" />
+
+          <img class="relative w-[21.1px] h-5 min-h-[20px] z-[2]" alt="" src="/public/iconlyboldstar.svg" />
+
+          <img class="relative w-[21.1px] h-5 min-h-[20px] z-[2]" alt="" src="/public/iconlybulkstar.svg" />
+        </div>
+      </div>
+      <div
+        class="w-[582px] flex flex-col items-start justify-start gap-[60px] min-w-[582px] max-w-full text-xl text-black mq900:gap-[30px] mq900:min-w-full mq1325:flex-1">
+        <div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
+          <div class="w-44 h-[26px] flex flex-col items-center justify-start gap-[7px] text-blue font-helvetica">
+            <b class="flex-1 relative flex items-center mq450:text-base">
+              <span>
+                <span class="uppercase">F</span>
+                <span class="lowercase">IND </span>
+                <span class="uppercase">M</span>
+                <span class="lowercase">ORE </span>
+                <span class="uppercase">C</span>
+                <span class="lowercase">HOOSE</span>
+              </span>
+            </b>
+            <img class="self-stretch relative max-w-full overflow-hidden h-[3px] shrink-0" alt=""
+              src="/public/design-3.svg" />
+          </div>
+          <h1
+            class="m-0 relative text-29xl leading-[68px] font-bold font-inherit inline-block w-[514.4px] h-[118.3px] shrink-0 max-w-full mq450:text-10xl mq450:leading-[41px] mq900:text-19xl mq900:leading-[54px]">
+            Why You Choose Our Kavinax Property
+          </h1>
+          <div
+            class="self-stretch relative text-base leading-[28px] text-paragraph-text-color flex items-center h-[43.4px] shrink-0">
+            Excepteur sint occaecat cupidatat non proident,sunt inculpk qui
+            officia deserunt mollit anim id est laborum.sed do eiusmod.
+          </div>
+          <div class="self-stretch flex flex-col items-start justify-start gap-[10px] max-w-full">
+            <div
+              class="flex flex-row items-start justify-start py-0 pr-px pl-0 box-border gap-[30px] max-w-full mq900:flex-wrap">
+              <div class="flex flex-row items-center justify-start gap-[12px]">
+                <img class="relative w-[32.2px] h-[32.2px]" alt="" src="/public/group-1000005957.svg" />
+
+                <b class="relative mq450:text-base">Trusted By Thousands</b>
+              </div>
+              <div class="flex flex-row items-center justify-start gap-[12px]">
+                <img class="relative w-[32.2px] h-[32.2px]" alt="" src="/public/group-1000005957.svg" />
+
+                <b class="relative mq450:text-base">Private Security</b>
+              </div>
+            </div>
+            <div
+              class="self-stretch flex flex-row items-start justify-start py-0 pr-px pl-0 gap-[29px] text-base text-paragraph-text-color mq900:flex-wrap">
+              <div class="flex-1 relative leading-[28px] flex items-center h-[48.6px] min-w-[178px]">
+                <span>
+                  <span class="uppercase">D</span>
+                  <span class="lowercase">onec sit amet urna libero Quisque efficitur nulla et odio
+                    hendrerit
+                  </span>
+                </span>
+              </div>
+              <div class="flex-1 relative leading-[28px] flex items-center h-[48.6px] min-w-[178px]">
+                <span>
+                  <span class="uppercase">D</span>
+                  <span class="lowercase">onec sit amet urna libero Quisque efficitur nulla et odio
+                    hendrerit
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="self-stretch flex flex-row items-start justify-start py-0 pr-px pl-0 gap-[29px] mq900:flex-wrap">
+            <div class="flex-1 flex flex-col items-start justify-start gap-[11px] min-w-[178px]">
+              <div class="flex flex-row items-end justify-start gap-[12px]">
+                <img class="relative w-[32.2px] h-[32.2px]" alt="" src="/public/group-1000005957.svg" />
+
+                <b class="relative mq450:text-base">Evaluate Property</b>
+              </div>
+              <div
+                class="self-stretch relative text-base leading-[28px] text-paragraph-text-color flex items-center h-[48.6px] shrink-0">
+                <span>
+                  <span class="uppercase">D</span>
+                  <span class="lowercase">onec sit amet urna libero Quisque efficitur nulla et odio
+                    hendrerit
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="flex-1 flex flex-col items-start justify-start gap-[11px] min-w-[178px]">
+              <div class="flex flex-row items-end justify-start gap-[12px]">
+                <img class="relative w-[32.2px] h-[32.2px]" alt="" src="/public/group-1000005957.svg" />
+
+                <b class="relative flex items-center mq450:text-base">Find A Good Side</b>
+              </div>
+              <div
+                class="self-stretch relative text-base leading-[28px] text-paragraph-text-color flex items-center h-[48.6px] shrink-0">
+                <span>
+                  <span class="uppercase">D</span>
+                  <span class="lowercase">onec sit amet urna libero Quisque efficitur nulla et odio
+                    hendrerit
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="cursor-pointer [border:none] py-4 pr-[29px] pl-7 bg-blue flex flex-row items-end justify-start gap-[11px] whitespace-nowrap hover:bg-darkslateblue">
+          <div class="relative text-base leading-[28px] capitalize font-semibold font-manrope text-white text-justify">
+            Explore More
+          </div>
+          <img class="relative w-[28.4px] h-[25.3px]" alt="" src="/public/icon-5.svg" />
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="w-[1360px] flex flex-col items-center justify-start py-0 px-5 box-border gap-[60px] min-h-[1576px] max-w-full shrink-0 text-left text-xl text-blue font-helvetica mq900:gap-[30px]">
+      <div class="flex flex-col items-center justify-start gap-[30px] max-w-full">
+        <div class="flex flex-row items-start justify-start py-0 pr-0 pl-[7px]">
+          <div class="flex flex-col items-start justify-start gap-[7px]">
+            <b class="relative capitalize mq450:text-base">Our Property</b>
+            <img class="relative w-[122.1px] h-[3px]" alt="" src="/public/design-4.svg" />
+          </div>
+        </div>
+        <h1
+          class="m-0 relative text-29xl leading-[68px] capitalize font-bold font-manrope text-black flex items-center h-[38.7px] shrink-0 mq450:text-10xl mq450:leading-[41px] mq900:text-19xl mq900:leading-[54px]">
+          Our Explore Property
+        </h1>
+      </div>
+      <div
+        class="self-stretch flex flex-row flex-wrap items-start justify-center gap-[29px] min-h-[1152px] max-w-full text-base text-paragraph-text-color font-manrope">
+        <div
+          class="rounded-t-3xs rounded-b-none bg-blue w-[421px] flex flex-col items-center justify-start py-5 pr-0 pl-[19px] box-border gap-[20px] max-w-full text-white">
+          <div class="relative rounded-t-3xs rounded-b-none bg-blue w-[420px] h-[556.2px] hidden max-w-full"></div>
+          <div class="self-stretch flex flex-row items-start justify-start py-0 pr-5 pl-px box-border max-w-full">
+            <div
+              class="flex-1 rounded-t-3xs rounded-b-none flex flex-row items-center justify-between pt-3.5 pb-[193px] pr-[13px] pl-0 box-border bg-[url('/public/image@2x.png')] bg-cover bg-no-repeat bg-[top] gap-[20px] max-w-full z-[1] mq450:flex-wrap mq450:pl-[13px] mq450:box-border">
+              <img class="relative rounded-t-3xs rounded-b-none max-h-full w-[379.9px] object-cover hidden max-w-full"
+                alt="" src="/public/image@2x.png" />
+
+              <div class="flex flex-col items-start justify-start pt-0 px-0 pb-1">
+                <button
+                  class="cursor-pointer [border:none] py-0 pr-3 pl-0 bg-[transparent] flex flex-row items-center justify-start">
+                  <img class="relative w-[96.7px] h-8 z-[2]" alt="" src="/public/rectangle-4633.svg" />
+
+                  <div
+                    class="relative text-base leading-[32px] font-manrope text-white text-left flex items-center h-3 z-[3] ml-[-82px]">
+                    For Rent
+                  </div>
+                </button>
+              </div>
+              <img class="relative w-[50px] h-[50px] z-[2]" alt="" src="/public/like-icon.svg" />
+            </div>
+          </div>
+          <div class="flex flex-row items-center justify-start gap-[57px] text-xl mq450:flex-wrap mq450:gap-[28px]">
+            <b class="relative leading-[32px] flex items-center h-[19.1px] z-[1] mq450:text-base mq450:leading-[26px]">Ready
+              Resort for Sell</b>
+            <div class="bg-white w-[127px] flex flex-row items-center justify-center z-[1] text-base text-orange">
+              <b class="relative leading-[32px] whitespace-nowrap">2,525.00$</b>
+            </div>
+          </div>
+          <div class="h-[52px] flex flex-row items-start justify-start py-0 pr-[21px] pl-0 box-border">
+            <div class="self-stretch relative leading-[28px] flex items-center z-[1]">
+              <span>
+                <p class="m-0">
+                  <span class="uppercase">D</span>
+                  <span class="lowercase">uis aute irure dolor in reprehenderit into volupjl</span>
+                </p>
+                <p class="m-0 lowercase">
+                  tate velit esse cillum dolore eu fugiat.
+                </p>
+              </span>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-row items-start justify-start py-0 pr-[19px] pl-0 box-border max-w-full text-white1">
+            <div class="flex-1 flex flex-col items-start justify-start gap-[25px] max-w-full">
+              <div class="self-stretch relative box-border h-px z-[1] border-t-[1px] border-solid border-white"></div>
+              <div
+                class="self-stretch flex flex-row items-start justify-start gap-[38px] shrink-0 mq450:flex-wrap mq450:gap-[19px]">
+                <div class="h-[22px] flex flex-row items-center justify-start gap-[10px]">
+                  <img class="relative w-[21.5px] h-[21.5px] z-[1]" alt="" src="/public/icon-6.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Beds : 3
+                  </div>
+                </div>
+                <div class="flex-1 flex flex-row items-center justify-start gap-[10px] min-w-[66px]">
+                  <img class="relative w-[21.5px] h-[21.5px] z-[1]" alt="" src="/public/icon-7.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Baths : 4
+                  </div>
+                </div>
+                <div class="flex-1 flex flex-row items-center justify-start gap-[11px] min-w-[71px]">
+                  <img class="relative w-[21px] h-[21.5px] z-[1]" alt="" src="/public/component-1.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Parking : 1
+                  </div>
+                </div>
+              </div>
+              <div
+                class="self-stretch h-[42px] flex flex-col items-start justify-start gap-[20px] text-justify mq450:h-auto">
+                <div class="self-stretch relative box-border h-px z-[1] border-t-[1px] border-solid border-white"></div>
+                <div class="self-stretch flex flex-row items-center justify-between gap-[20px] mq450:flex-wrap">
+                  <div class="relative capitalize font-medium z-[1]">
+                    View Details
+                  </div>
+                  <img class="relative w-[31.1px] h-[22.1px] z-[1]" alt="" src="/public/arrows-icon.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rounded-t-3xs rounded-b-none bg-ash-color w-[420px] flex flex-col items-center justify-start py-5 pr-0 pl-[18px] box-border gap-[20px] max-w-full">
+          <div class="relative rounded-t-3xs rounded-b-none bg-ash-color w-[420px] h-[556.2px] hidden max-w-full"></div>
+          <div class="self-stretch flex flex-row items-start justify-start py-0 pr-[21px] pl-px box-border max-w-full">
+            <div
+              class="flex-1 rounded-t-3xs rounded-b-none flex flex-row items-center justify-between pt-3.5 pb-[193px] pr-[13px] pl-0 box-border bg-[url('/public/image@2x.png')] bg-cover bg-no-repeat bg-[top] gap-[20px] max-w-full z-[1] mq450:flex-wrap mq450:pl-[13px] mq450:box-border">
+              <img class="relative rounded-t-3xs rounded-b-none max-h-full w-[379.9px] object-cover hidden max-w-full"
+                alt="" src="/public/image@2x.png" />
+
+              <div class="flex flex-col items-start justify-start pt-0 pb-1 pr-px pl-0">
+                <button
+                  class="cursor-pointer [border:none] py-0 pr-[15px] pl-0 bg-[transparent] flex flex-row items-center justify-start">
+                  <img class="relative w-[96.7px] h-8 z-[2]" alt="" src="/public/rectangle-4633-1.svg" />
+
+                  <div
+                    class="relative text-base leading-[32px] font-manrope text-white text-left flex items-center h-3 z-[3] ml-[-78px]">
+                    For Sell
+                  </div>
+                </button>
+              </div>
+              <div class="relative w-[50px] h-[50px]">
+                <div class="absolute top-[0.4px] left-[-0.3px] rounded-[50%] bg-blue w-full h-full z-[2]"></div>
+                <img class="absolute top-[16.4px] left-[14.7px] w-5 h-[18px] z-[3]" alt=""
+                  src="/public/vector-11.svg" />
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-row items-center justify-between py-0 pr-px pl-0 gap-[20px] text-xl text-orange mq450:flex-wrap">
+            <b class="relative leading-[32px] flex items-center h-[19.1px] z-[1] mq450:text-base mq450:leading-[26px]">Office
+              Space</b>
+            <div class="bg-orange w-[127px] flex flex-row items-center justify-center z-[1] text-base text-white">
+              <b class="relative leading-[32px] whitespace-nowrap">2,525.00$</b>
+            </div>
+          </div>
+          <div class="h-[52px] flex flex-row items-start justify-start py-0 pr-[21px] pl-px box-border">
+            <div class="self-stretch relative leading-[28px] flex items-center z-[1]">
+              <span>
+                <p class="m-0">
+                  <span class="uppercase">D</span>
+                  <span class="lowercase">uis aute irure dolor in reprehenderit into volupjl</span>
+                </p>
+                <p class="m-0 lowercase">
+                  tate velit esse cillum dolore eu fugiat.
+                </p>
+              </span>
+            </div>
+          </div>
+          <div class="self-stretch flex flex-row items-start justify-start py-0 pr-[19px] pl-0 box-border max-w-full">
+            <div class="flex-1 flex flex-col items-start justify-start gap-[25px] max-w-full">
+              <div
+                class="self-stretch relative box-border h-px z-[1] border-t-[1px] border-solid border-paragraph-text-color">
+              </div>
+              <div
+                class="self-stretch flex flex-row items-start justify-start gap-[34px] shrink-0 mq450:flex-wrap mq450:gap-[17px]">
+                <div class="h-[23px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[9px]">
+                  <img class="relative w-[21.5px] h-[21.5px] z-[1]" alt="" src="/public/icon-8.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Beds : Na
+                  </div>
+                </div>
+                <div class="h-[23px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[9px]">
+                  <img class="relative w-[21.5px] h-[21.5px] z-[1]" alt="" src="/public/icon-9.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Baths : 2
+                  </div>
+                </div>
+                <div class="h-[23px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[10px]">
+                  <img class="relative w-[21px] h-[21.5px] z-[1]" alt="" src="/public/component-1-1.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Parking : 1
+                  </div>
+                </div>
+              </div>
+              <div
+                class="self-stretch h-[42px] flex flex-col items-start justify-start gap-[20px] text-justify text-orange mq450:h-auto">
+                <div
+                  class="self-stretch relative box-border h-px z-[1] border-t-[1px] border-solid border-paragraph-text-color">
+                </div>
+                <div class="self-stretch flex flex-row items-center justify-between gap-[20px] mq450:flex-wrap">
+                  <div class="relative capitalize font-medium z-[1]">
+                    View Details
+                  </div>
+                  <img class="relative w-[31.1px] h-[22.1px] z-[1]" alt="" src="/public/arrows-icon-1.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rounded-t-3xs rounded-b-none bg-ash-color w-[421px] flex flex-col items-center justify-start py-5 pr-0 pl-[18px] box-border gap-[20px] max-w-full">
+          <div class="relative rounded-t-3xs rounded-b-none bg-ash-color w-[420px] h-[556.2px] hidden max-w-full"></div>
+          <div class="self-stretch flex flex-row items-start justify-start py-0 pr-5 pl-0.5 box-border max-w-full">
+            <div
+              class="flex-1 rounded-t-3xs rounded-b-none flex flex-row items-center justify-between pt-3.5 pb-[193px] pr-[13px] pl-0 box-border bg-[url('/public/image@2x.png')] bg-cover bg-no-repeat bg-[top] gap-[20px] max-w-full z-[1] mq450:flex-wrap mq450:pl-[13px] mq450:box-border">
+              <img class="relative rounded-t-3xs rounded-b-none max-h-full w-[379.9px] object-cover hidden max-w-full"
+                alt="" src="/public/image@2x.png" />
+
+              <div class="flex flex-col items-start justify-start pt-0 px-0 pb-1">
+                <button
+                  class="cursor-pointer [border:none] py-0 pr-[15px] pl-0 bg-[transparent] flex flex-row items-center justify-start">
+                  <img class="relative w-[96.7px] h-8 z-[2]" alt="" src="/public/rectangle-4633-1.svg" />
+
+                  <div
+                    class="relative text-base leading-[32px] font-manrope text-white text-left flex items-center h-3 z-[3] ml-[-78px]">
+                    For Buy
+                  </div>
+                </button>
+              </div>
+              <button class="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[50px] h-[50px]">
+                <div class="absolute top-[0.4px] left-[-0.5px] rounded-[50%] bg-blue w-full h-full z-[2]"></div>
+                <img class="absolute top-[16.4px] left-[14.5px] w-5 h-[18px] z-[3]" alt=""
+                  src="/public/vector-11.svg" />
+              </button>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-row items-start justify-start py-0 px-0 box-border max-w-full text-xl text-orange">
+            <div
+              class="flex-1 flex flex-row items-center justify-between py-0 pr-0.5 pl-0 box-border gap-[20px] max-w-full mq450:flex-wrap">
+              <b
+                class="relative leading-[32px] flex items-center h-[19.1px] z-[1] mq450:text-base mq450:leading-[26px]">Luxury
+                Condo</b>
+              <div
+                class="bg-orange flex flex-row items-center justify-center py-0 pr-[23px] pl-[22px] z-[1] text-base text-white">
+                <b class="relative leading-[32px] whitespace-nowrap">2,525.00$</b>
+              </div>
+            </div>
+          </div>
+          <div class="h-[52px] flex flex-row items-start justify-start py-0 pr-[21px] pl-px box-border">
+            <div class="self-stretch relative leading-[28px] flex items-center z-[1]">
+              <span>
+                <p class="m-0">
+                  <span class="uppercase">D</span>
+                  <span class="lowercase">uis aute irure dolor in reprehenderit into volupjl</span>
+                </p>
+                <p class="m-0 lowercase">
+                  tate velit esse cillum dolore eu fugiat.
+                </p>
+              </span>
+            </div>
+          </div>
+          <div class="self-stretch flex flex-row items-start justify-start py-0 pr-[18px] pl-px box-border max-w-full">
+            <div
+              class="flex-1 flex flex-col items-start justify-start py-0 pr-px pl-0 box-border gap-[25px] max-w-full">
+              <div
+                class="self-stretch relative box-border h-px z-[1] border-t-[1px] border-solid border-paragraph-text-color">
+              </div>
+              <div
+                class="self-stretch flex flex-row items-start justify-start py-0 pr-px pl-0 gap-[36px] shrink-0 mq450:flex-wrap mq450:gap-[18px]">
+                <div class="h-[22px] flex flex-row items-center justify-start gap-[10px]">
+                  <img class="relative w-[21.5px] h-[21.5px] z-[1]" alt="" src="/public/icon-8.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Beds : 7
+                  </div>
+                </div>
+                <div class="h-[22px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[9px]">
+                  <img class="relative w-[21.5px] h-[21.5px] z-[1]" alt="" src="/public/icon-9.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Baths : 5
+                  </div>
+                </div>
+                <div class="h-[22px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[10px]">
+                  <img class="relative w-[21px] h-[21.5px] z-[1]" alt="" src="/public/component-1-1.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Parking : 2
+                  </div>
+                </div>
+              </div>
+              <div
+                class="self-stretch h-[42px] flex flex-col items-end justify-start gap-[20px] text-justify text-orange mq450:h-auto">
+                <div
+                  class="self-stretch relative box-border h-px z-[1] border-t-[1px] border-solid border-paragraph-text-color">
+                </div>
+                <div
+                  class="self-stretch flex flex-row items-center justify-between py-0 pr-px pl-0 gap-[20px] mq450:flex-wrap">
+                  <div class="relative capitalize font-medium z-[1]">
+                    View Details
+                  </div>
+                  <img class="relative w-[31.1px] h-[22.1px] z-[1]" alt="" src="/public/arrows-icon-1.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rounded-t-3xs rounded-b-none bg-ash-color w-[422px] flex flex-col items-center justify-start pt-5 pb-[21px] pr-0 pl-[19px] box-border gap-[20px] max-w-full mq900:pt-5 mq900:pb-5 mq900:box-border">
+          <div class="relative rounded-t-3xs rounded-b-none bg-ash-color w-[420px] h-[556.2px] hidden max-w-full"></div>
+          <div class="self-stretch flex flex-row items-start justify-start py-0 pr-5 pl-px box-border max-w-full">
+            <div
+              class="flex-1 rounded-t-3xs rounded-b-none flex flex-row items-center justify-between pt-3.5 pb-[193px] pr-[13px] pl-0 box-border bg-[url('/public/image@2x.png')] bg-cover bg-no-repeat bg-[top] gap-[20px] max-w-full z-[1] mq450:flex-wrap mq450:pl-[13px] mq450:box-border">
+              <img class="relative rounded-t-3xs rounded-b-none max-h-full w-[379.9px] object-cover hidden max-w-full"
+                alt="" src="/public/image@2x.png" />
+
+              <button
+                class="cursor-pointer [border:none] py-0 pr-[17px] pl-0 bg-[transparent] flex flex-row items-center justify-start">
+                <img class="relative w-[96.7px] h-8 z-[2]" alt="" src="/public/rectangle-4633-1.svg" />
+
+                <div
+                  class="relative text-base leading-[32px] font-manrope text-white text-left flex items-center h-3 z-[3] ml-[-76px]">
+                  For Sell
+                </div>
+              </button>
+              <button class="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[50px] h-[50px]">
+                <div class="absolute top-[-0.5px] left-[-0.1px] rounded-[50%] bg-blue w-full h-full z-[2]"></div>
+                <img class="absolute top-[15.5px] left-[14.9px] w-5 h-[18px] z-[3]" alt=""
+                  src="/public/vector-11.svg" />
+              </button>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-row items-start justify-start py-0 px-0 box-border max-w-full text-xl text-orange">
+            <div
+              class="flex-1 flex flex-row items-center justify-between py-0 pr-0.5 pl-0 box-border gap-[20px] max-w-full mq450:flex-wrap">
+              <b
+                class="relative leading-[32px] flex items-center h-[19.1px] z-[1] mq450:text-base mq450:leading-[26px]">Modern
+                Villa</b>
+              <div
+                class="bg-orange flex flex-row items-center justify-center py-0 pr-[23px] pl-[22px] z-[1] text-base text-white">
+                <b class="relative leading-[32px] whitespace-nowrap">2,525.00$</b>
+              </div>
+            </div>
+          </div>
+          <div class="h-[52px] flex flex-row items-start justify-start py-0 pr-[21px] pl-0 box-border">
+            <div class="self-stretch relative leading-[28px] flex items-center z-[1]">
+              <span>
+                <p class="m-0">
+                  <span class="uppercase">D</span>
+                  <span class="lowercase">uis aute irure dolor in reprehenderit into volupjl</span>
+                </p>
+                <p class="m-0 lowercase">
+                  tate velit esse cillum dolore eu fugiat.
+                </p>
+              </span>
+            </div>
+          </div>
+          <div class="self-stretch flex flex-row items-start justify-start py-0 pr-[19px] pl-0 box-border max-w-full">
+            <div
+              class="flex-1 flex flex-col items-start justify-start py-0 pr-px pl-0 box-border gap-[25px] max-w-full">
+              <div
+                class="self-stretch relative box-border h-px z-[1] border-t-[1px] border-solid border-paragraph-text-color">
+              </div>
+              <div
+                class="self-stretch flex flex-row items-start justify-start gap-[32px] shrink-0 mq450:flex-wrap mq450:gap-[16px]">
+                <div class="h-[22px] flex flex-row items-center justify-start gap-[10px]">
+                  <img class="relative w-[21.5px] h-[21.5px] z-[1]" alt="" src="/public/icon-8.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Beds : 12
+                  </div>
+                </div>
+                <div class="flex-1 flex flex-row items-center justify-start gap-[10px] min-w-[68px]">
+                  <img class="relative w-[21.5px] h-[21.5px] z-[1]" alt="" src="/public/icon-9.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Baths : 10
+                  </div>
+                </div>
+                <div class="flex-1 flex flex-row items-center justify-start gap-[11px] min-w-[74px]">
+                  <img class="relative w-[21px] h-[21.5px] z-[1]" alt="" src="/public/component-1-1.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Parking : 5
+                  </div>
+                </div>
+              </div>
+              <div
+                class="self-stretch h-[42px] flex flex-col items-end justify-start gap-[20px] text-justify text-orange mq450:h-auto">
+                <div
+                  class="self-stretch relative box-border h-px z-[1] border-t-[1px] border-solid border-paragraph-text-color">
+                </div>
+                <div class="self-stretch flex flex-row items-center justify-between gap-[20px] mq450:flex-wrap">
+                  <div class="relative capitalize font-medium z-[1]">
+                    View Details
+                  </div>
+                  <img class="relative w-[31.1px] h-[22.1px] z-[1]" alt="" src="/public/arrows-icon-3.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rounded-t-3xs rounded-b-none bg-ash-color w-[421px] flex flex-col items-center justify-start pt-5 pb-[21px] pr-0 pl-[18px] box-border gap-[20px] max-w-full mq900:pt-5 mq900:pb-5 mq900:box-border">
+          <div class="relative rounded-t-3xs rounded-b-none bg-ash-color w-[420px] h-[556.2px] hidden max-w-full"></div>
+          <div class="self-stretch flex flex-row items-start justify-start py-0 pr-5 pl-0.5 box-border max-w-full">
+            <div
+              class="flex-1 rounded-t-3xs rounded-b-none flex flex-row items-center justify-between pt-3.5 pb-[193px] pr-[13px] pl-0 box-border bg-[url('/public/image@2x.png')] bg-cover bg-no-repeat bg-[top] gap-[20px] max-w-full z-[1] mq450:flex-wrap mq450:pl-[13px] mq450:box-border">
+              <img class="relative rounded-t-3xs rounded-b-none max-h-full w-[379.9px] object-cover hidden max-w-full"
+                alt="" src="/public/image@2x.png" />
+
+              <button
+                class="cursor-pointer [border:none] py-0 pr-[9px] pl-0 bg-[transparent] flex flex-row items-center justify-start">
+                <img class="relative w-[96.7px] h-8 z-[2]" alt="" src="/public/rectangle-4633-1.svg" />
+
+                <div
+                  class="relative text-base leading-[32px] font-manrope text-white text-left flex items-center h-3 z-[3] ml-[-82px]">
+                  For Rent
+                </div>
+              </button>
+              <div class="relative w-[50px] h-[50px]">
+                <div class="absolute top-[-0.5px] left-[-0.4px] rounded-[50%] bg-blue w-full h-full z-[2]"></div>
+                <img class="absolute top-[15.5px] left-[14.6px] w-5 h-[18px] z-[3]" alt=""
+                  src="/public/vector-11.svg" />
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-row items-start justify-start py-0 px-0 box-border max-w-full text-xl text-orange">
+            <div
+              class="flex-1 flex flex-row items-center justify-between py-0 pr-px pl-0 box-border gap-[20px] max-w-full mq450:flex-wrap">
+              <b
+                class="relative leading-[32px] flex items-center h-[19.1px] z-[1] mq450:text-base mq450:leading-[26px]">Luxury
+                Condo</b>
+              <div class="bg-orange w-[127px] flex flex-row items-center justify-center z-[1] text-base text-white">
+                <b class="relative leading-[32px] whitespace-nowrap">2,525.00$</b>
+              </div>
+            </div>
+          </div>
+          <div class="h-[52px] flex flex-row items-start justify-start py-0 pr-[21px] pl-px box-border">
+            <div class="self-stretch relative leading-[28px] flex items-center z-[1]">
+              <span>
+                <p class="m-0">
+                  <span class="uppercase">D</span>
+                  <span class="lowercase">uis aute irure dolor in reprehenderit into volupjl</span>
+                </p>
+                <p class="m-0 lowercase">
+                  tate velit esse cillum dolore eu fugiat.
+                </p>
+              </span>
+            </div>
+          </div>
+          <div class="self-stretch flex flex-row items-start justify-start py-0 pr-[18px] pl-px box-border max-w-full">
+            <div
+              class="flex-1 flex flex-col items-start justify-start py-0 pr-px pl-0 box-border gap-[25px] max-w-full">
+              <div
+                class="self-stretch relative box-border h-px z-[1] border-t-[1px] border-solid border-paragraph-text-color">
+              </div>
+              <div
+                class="self-stretch flex flex-row items-start justify-start py-0 pr-px pl-0 gap-[36px] shrink-0 mq450:flex-wrap mq450:gap-[18px]">
+                <div class="h-[22px] flex flex-row items-center justify-start gap-[10px]">
+                  <img class="relative w-[21.5px] h-[21.5px] z-[1]" alt="" src="/public/icon-8.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Beds : 7
+                  </div>
+                </div>
+                <div class="h-[22px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[9px]">
+                  <img class="relative w-[21.5px] h-[21.5px] z-[1]" alt="" src="/public/icon-9.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Baths : 5
+                  </div>
+                </div>
+                <div class="h-[22px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[10px]">
+                  <img class="relative w-[21px] h-[21.5px] z-[1]" alt="" src="/public/component-1-1.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Parking : 2
+                  </div>
+                </div>
+              </div>
+              <div
+                class="self-stretch h-[42px] flex flex-col items-end justify-start gap-[20px] text-justify text-orange mq450:h-auto">
+                <div
+                  class="self-stretch relative box-border h-px z-[1] border-t-[1px] border-solid border-paragraph-text-color">
+                </div>
+                <div class="self-stretch flex flex-row items-center justify-between gap-[20px] mq450:flex-wrap">
+                  <div class="relative capitalize font-medium z-[1]">
+                    View Details
+                  </div>
+                  <img class="relative w-[31.1px] h-[22.1px] z-[1]" alt="" src="/public/arrows-icon-1.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rounded-t-3xs rounded-b-none bg-ash-color w-[421px] flex flex-col items-center justify-start pt-5 pb-[21px] pr-0 pl-[19px] box-border gap-[20px] max-w-full mq900:pt-5 mq900:pb-5 mq900:box-border">
+          <div class="relative rounded-t-3xs rounded-b-none bg-ash-color w-[420px] h-[556.2px] hidden max-w-full"></div>
+          <div class="self-stretch flex flex-row items-start justify-start py-0 pr-[21px] pl-0 box-border max-w-full">
+            <div
+              class="flex-1 rounded-t-3xs rounded-b-none flex flex-row items-center justify-between pt-3.5 pb-[193px] pr-3.5 pl-0 box-border bg-[url('/public/image@2x.png')] bg-cover bg-no-repeat bg-[top] gap-[20px] max-w-full z-[1] mq450:flex-wrap mq450:pl-3.5 mq450:box-border">
+              <img class="relative rounded-t-3xs rounded-b-none max-h-full w-[379.9px] object-cover hidden max-w-full"
+                alt="" src="/public/image@2x.png" />
+
+              <button
+                class="cursor-pointer [border:none] py-0 pr-[15px] pl-0 bg-[transparent] flex flex-row items-center justify-start">
+                <img class="relative w-[96.7px] h-8 z-[2]" alt="" src="/public/rectangle-4633-1.svg" />
+
+                <div
+                  class="relative text-base leading-[32px] font-manrope text-white text-left flex items-center h-3 z-[3] ml-[-79px]">
+                  For Buy
+                </div>
+              </button>
+              <button class="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[50px] h-[50px]">
+                <div class="absolute top-[-0.5px] left-[-0.1px] rounded-[50%] bg-blue w-full h-full z-[2]"></div>
+                <img class="absolute top-[15.5px] left-[14.9px] w-5 h-[18px] z-[3]" alt=""
+                  src="/public/vector-11.svg" />
+              </button>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-row items-center justify-between gap-[20px] text-xl text-orange mq450:flex-wrap">
+            <b class="relative leading-[32px] flex items-center h-[19.1px] z-[1] mq450:text-base mq450:leading-[26px]">Office
+              Space</b>
+            <div class="bg-orange w-[127px] flex flex-row items-center justify-center z-[1] text-base text-white">
+              <b class="relative leading-[32px] whitespace-nowrap">2,525.00$</b>
+            </div>
+          </div>
+          <div class="h-[52px] flex flex-row items-start justify-start py-0 pr-[21px] pl-0 box-border">
+            <div class="self-stretch relative leading-[28px] flex items-center z-[1]">
+              <span>
+                <p class="m-0">
+                  <span class="uppercase">D</span>
+                  <span class="lowercase">uis aute irure dolor in reprehenderit into volupjl</span>
+                </p>
+                <p class="m-0 lowercase">
+                  tate velit esse cillum dolore eu fugiat.
+                </p>
+              </span>
+            </div>
+          </div>
+          <div class="self-stretch flex flex-row items-start justify-start py-0 pr-[19px] pl-0 box-border max-w-full">
+            <div
+              class="flex-1 flex flex-col items-start justify-start py-0 pr-px pl-0 box-border gap-[25px] max-w-full">
+              <div
+                class="self-stretch relative box-border h-px z-[1] border-t-[1px] border-solid border-paragraph-text-color">
+              </div>
+              <div
+                class="self-stretch flex flex-row items-start justify-start py-0 pr-px pl-0 gap-[33px] shrink-0 mq450:flex-wrap mq450:gap-[16px]">
+                <div class="h-[22px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[9px]">
+                  <img class="relative w-[21.5px] h-[21.5px] z-[1]" alt="" src="/public/icon-8.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Beds : Na
+                  </div>
+                </div>
+                <div class="h-[22px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[9px]">
+                  <img class="relative w-[21.5px] h-[21.5px] z-[1]" alt="" src="/public/icon-9.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Baths : 2
+                  </div>
+                </div>
+                <div class="h-[22px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[10px]">
+                  <img class="relative w-[21px] h-[21.5px] z-[1]" alt="" src="/public/component-1-1.svg" />
+
+                  <div class="relative leading-[28px] flex items-center h-[13.2px] z-[1]">
+                    Parking : 1
+                  </div>
+                </div>
+              </div>
+              <div
+                class="self-stretch h-[42px] flex flex-col items-start justify-start gap-[20px] text-justify text-orange mq450:h-auto">
+                <div
+                  class="self-stretch relative box-border h-px z-[1] border-t-[1px] border-solid border-paragraph-text-color">
+                </div>
+                <div
+                  class="self-stretch flex flex-row items-center justify-between py-0 pr-px pl-0 gap-[20px] mq450:flex-wrap">
+                  <div class="relative capitalize font-medium z-[1]">
+                    View Details
+                  </div>
+                  <img class="relative w-[31.1px] h-[22.1px] z-[1]" alt="" src="/public/arrows-icon-1.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row items-start justify-start py-0 pr-px pl-[11px]">
+        <button
+          class="cursor-pointer [border:none] py-4 pr-[29px] pl-7 bg-blue flex flex-row items-center justify-start gap-[11px] whitespace-nowrap hover:bg-darkslateblue">
+          <div class="relative text-base leading-[28px] capitalize font-semibold font-manrope text-white text-justify">
+            View All Property
+          </div>
+          <img class="relative w-[28.5px] h-[24.9px]" alt="" src="/public/icon-18.svg" />
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="w-[1362px] flex flex-col items-end justify-start py-0 px-5 box-border gap-[61px] min-h-[718px] max-w-full shrink-0 text-left text-xl text-blue font-helvetica mq450:gap-[15px] mq900:gap-[30px]">
+      <div
+        class="self-stretch flex flex-row items-center justify-between py-0 pr-px pl-0 box-border gap-[20px] max-w-full mq900:flex-wrap">
+        <div class="flex flex-col items-start justify-start gap-[30px] max-w-full">
+          <div class="flex flex-col items-start justify-start gap-[7px]">
+            <b class="relative mq450:text-base">
+              <span class="uppercase">F</span>
+              <span class="lowercase">IND </span>
+              <span class="uppercase">P</span>
+              <span class="lowercase">ROPERTIES</span>
+            </b>
+            <img class="relative w-[146px] h-[3px]" alt="" src="/public/design-5.svg" />
+          </div>
+          <h1
+            class="m-0 relative text-29xl leading-[68px] capitalize font-bold font-manrope text-black flex items-center h-[38.7px] shrink-0 mq450:text-10xl mq450:leading-[41px] mq900:text-19xl mq900:leading-[54px]">
+            Explore Our Cities
+          </h1>
+        </div>
+        <div class="flex flex-row items-start justify-start py-5 pr-px pl-0 gap-[19px]">
+          <img class="relative rounded-11xl w-[50px] h-[50px] overflow-hidden shrink-0 min-h-[50px]" alt=""
+            src="/public/rhs-arrow-icon.svg" />
+
+          <img class="relative rounded-11xl w-[50px] h-[50px] overflow-hidden shrink-0 min-h-[50px]" alt=""
+            src="/public/lhs-arrow-icon.svg" />
+        </div>
+      </div>
+      <div
+        class="self-stretch grid flex-row items-start justify-start py-0 pr-0.5 pl-0 box-border gap-[29px] max-w-full grid-cols-[repeat(3,_minmax(315px,_1fr))] text-17xl text-white font-manrope mq900:grid-cols-[minmax(315px,_1fr)] mq1325:justify-center mq1325:grid-cols-[repeat(2,_minmax(315px,_546px))]">
+        <div
+          class="bg-ash-color box-border flex flex-col items-end justify-start pt-0 px-0 pb-[30px] gap-[24px] max-w-full border-b-[6px] border-solid border-orange">
+          <div
+            class="self-stretch relative bg-ash-color box-border h-[413.3px] hidden border-b-[6px] border-solid border-orange">
+          </div>
+          <div
+            class="self-stretch flex flex-col items-center justify-start pt-[99px] pb-[98px] pr-5 pl-[23px] box-border relative gap-[5px] bg-[url('/public/rectangle-4635@2x.png')] bg-cover bg-no-repeat bg-[top] max-w-full shrink-0 z-[1]">
+            <img class="relative max-h-full w-[420px] object-cover hidden max-w-full z-[0]" alt=""
+              src="/public/rectangle-4635@2x.png" />
+
+            <div
+              class="absolute my-0 mx-[!important] h-full w-full top-[-0.5px] right-[1px] bottom-[1.1px] left-[0px] bg-midnightblue z-[2]">
+            </div>
+            <div class="flex flex-row items-start justify-start py-0 pr-[3px] pl-0">
+              <div class="flex flex-row items-start justify-start gap-[20px]">
+                <img class="relative w-[50px] h-[50px] min-h-[50px] z-[3]" alt="" src="/public/icon-19.svg" />
+
+                <img class="relative w-[50px] h-[50px] min-h-[50px] z-[3]" alt="" src="/public/icon-20.svg" />
+              </div>
+            </div>
+            <h1 class="m-0 relative text-inherit font-medium font-inherit z-[3] mq450:text-3xl mq900:text-10xl">
+              Bangkok
+            </h1>
+          </div>
+          <div
+            class="w-[403px] flex flex-row items-center justify-between gap-[20px] max-w-full shrink-0 text-xl text-orange mq450:flex-wrap">
+            <div class="h-[58px] flex flex-col items-start justify-start gap-[21px]">
+              <b
+                class="flex-1 relative leading-[68px] capitalize flex items-center z-[1] mq450:text-base mq450:leading-[54px]">Fortune
+                Condo Town</b>
+              <div class="flex flex-row items-center justify-start gap-[5px] text-lg text-blue font-h6">
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlyboldstar-4.svg" />
+
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlyboldstar-4.svg" />
+
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlyboldstar-4.svg" />
+
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlyboldstar-4.svg" />
+
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlybulkstar-1.svg" />
+
+                <div class="relative font-medium inline-block h-3.5 z-[1]">
+                  4.5
+                </div>
+              </div>
+            </div>
+            <button
+              class="cursor-pointer [border:none] py-0 pr-[13px] pl-0 bg-[transparent] flex flex-row items-center justify-start">
+              <img class="relative w-[121.8px] h-8 object-contain z-[1]" alt="" src="/public/rectangle-4633-6.svg" />
+
+              <div class="relative text-base font-medium font-manrope text-white1 text-left z-[2] ml-[-95px]">
+                240 / Sqft
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          class="bg-ash-color flex flex-col items-end justify-start pt-0 px-0 pb-[30px] box-border gap-[24px] max-w-full">
+          <div class="self-stretch relative bg-ash-color h-[413.3px] hidden"></div>
+          <div
+            class="self-stretch h-[304px] flex flex-row items-end justify-center py-[110px] pr-[21px] pl-5 box-border bg-[url('/public/rectangle-4635@2x.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[1]">
+            <img class="relative max-h-full w-[420px] object-cover hidden max-w-full" alt=""
+              src="/public/rectangle-4635@2x.png" />
+
+            <div
+              class="rounded-3xs bg-orange flex flex-row items-center justify-center py-[3px] pr-[30px] pl-[29px] z-[2]">
+              <div class="relative rounded-3xs bg-orange w-[195px] h-[56.7px] hidden"></div>
+              <h1 class="m-0 relative text-inherit font-medium font-inherit z-[1] mq450:text-3xl mq900:text-10xl">
+                Sudney
+              </h1>
+            </div>
+          </div>
+          <div
+            class="w-[402px] flex flex-row items-center justify-between gap-[20px] max-w-full shrink-0 text-xl text-blue mq450:flex-wrap mq450:justify-center">
+            <div class="h-[58px] flex flex-col items-start justify-start gap-[21px]">
+              <b
+                class="flex-1 relative leading-[68px] capitalize flex items-center z-[1] mq450:text-base mq450:leading-[54px]">Farmhouse
+                For Buy</b>
+              <div
+                class="flex flex-row items-center justify-start py-0 pr-1 pl-0 gap-[4px] text-lg text-orange font-h6">
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlyboldstar.svg" />
+
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlyboldstar.svg" />
+
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlyboldstar.svg" />
+
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlyboldstar.svg" />
+
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlybulkstar.svg" />
+
+                <div class="relative font-medium inline-block h-3.5 z-[1]">
+                  4.5
+                </div>
+              </div>
+            </div>
+            <button
+              class="cursor-pointer [border:none] py-0 pr-3 pl-0 bg-[transparent] flex flex-row items-center justify-start">
+              <img class="relative w-[121.8px] h-8 object-contain z-[1]" alt="" src="/public/rectangle-4633-7.svg" />
+
+              <div class="relative text-base font-medium font-manrope text-white1 text-left z-[2] ml-[-96px]">
+                800 / Sqft
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          class="bg-ash-color flex flex-col items-end justify-start pt-0 px-0 pb-[30px] box-border gap-[24px] max-w-full">
+          <div class="self-stretch relative bg-ash-color h-[413.3px] hidden"></div>
+          <div
+            class="self-stretch h-[304px] flex flex-row items-end justify-center py-[110px] pr-[21px] pl-5 box-border bg-[url('/public/rectangle-4635@2x.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[1]">
+            <img class="relative max-h-full w-[420px] object-cover hidden max-w-full" alt=""
+              src="/public/rectangle-4635@2x.png" />
+
+            <div class="rounded-3xs bg-orange flex flex-row items-center justify-end py-[3px] pr-6 pl-[29px] z-[2]">
+              <div class="relative rounded-3xs bg-orange w-[195px] h-[56.7px] hidden"></div>
+              <h1 class="m-0 relative text-inherit font-medium font-inherit z-[1] mq450:text-3xl mq900:text-10xl">
+                Toronto
+              </h1>
+            </div>
+          </div>
+          <div
+            class="w-[402px] flex flex-row items-center justify-between gap-[20px] max-w-full shrink-0 text-xl text-blue mq450:flex-wrap mq450:justify-center">
+            <div class="h-[58px] flex flex-col items-start justify-start gap-[21px]">
+              <b
+                class="flex-1 relative leading-[68px] capitalize flex items-center z-[1] mq450:text-base mq450:leading-[54px]">Apartment
+                For Sale</b>
+              <div
+                class="flex flex-row items-center justify-start py-0 pr-1 pl-0 gap-[4px] text-lg text-orange font-h6">
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlyboldstar.svg" />
+
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlyboldstar.svg" />
+
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlyboldstar.svg" />
+
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlyboldstar.svg" />
+
+                <img class="relative w-[21.1px] h-5 min-h-[20px] z-[1]" alt="" src="/public/iconlybulkstar.svg" />
+
+                <div class="relative font-medium inline-block h-3.5 z-[1]">
+                  4.5
+                </div>
+              </div>
+            </div>
+            <button
+              class="cursor-pointer [border:none] py-0 pr-[18px] pl-0 bg-[transparent] flex flex-row items-center justify-start">
+              <img class="relative w-[121.8px] h-8 object-contain z-[1]" alt="" src="/public/rectangle-4633-7.svg" />
+
+              <div class="relative text-base font-medium font-manrope text-white1 text-left z-[2] ml-[-96px]">
+                180 / Sqft
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <img
+      class="absolute my-0 mx-[!important] top-[4420.8px] left-[708.1px] rounded-t-3xs rounded-b-none w-[293.1px] h-[253.6px] object-cover z-[2]"
+      loading="eager" alt="" src="/public/rectangle-4630@2x.png" />
+
+
+    <div class="absolute my-0 mx-[!important] top-[4705px] left-[472px] w-[529px] h-[269px]">
+      <img class="absolute top-[136.5px] left-[0px] w-[132.4px] h-[132.3px]" alt="" src="/public/pattern.svg" />
+
+      <img
+        class="absolute h-[calc(100%_-_0.2px)] top-[0px] bottom-[0.2px] left-[75.6px] rounded-t-3xs rounded-b-none max-h-full w-[453.6px] object-cover z-[2]"
+        loading="eager" alt="" src="/public/rectangle-4631@2x.png" />
+
+    </div>
+
+    <section
+      class="self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[151px] box-border max-w-full shrink-0 text-left text-xl text-white font-helvetica mq900:pb-[98px] mq900:box-border">
+      <div
+        class="flex-1 flex flex-col items-center justify-start pt-[54px] px-[53px] pb-[53px] box-border relative gap-[41px] bg-[url('/public/image@2x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq900:gap-[20px] mq900:pt-[35px] mq900:pb-[34px] mq900:box-border mq1325:pl-[26px] mq1325:pr-[26px] mq1325:box-border">
+        <img class="relative max-h-full w-[1920px] object-cover hidden max-w-full z-[0]" alt=""
+          src="/public/image@2x.png" />
+
+        <div
+          class="absolute my-0 mx-[!important] h-full w-full top-[-0.2px] right-[0.2px] bottom-[0.2px] left-[-0.2px] bg-midnightblue z-[1]">
+        </div>
+        <img class="absolute my-0 mx-[!important] bottom-[71.8px] left-[373.4px] w-[100.8px] h-[100.8px] z-[4]" alt=""
+          src="/public/icon-21.svg" />
+
+        <img class="absolute my-0 mx-[!important] bottom-[75.8px] left-[743.4px] w-[92.8px] h-[92.9px] z-[4]" alt=""
+          src="/public/icon-22.svg" />
+
+        <img class="absolute my-0 mx-[!important] right-[758.8px] bottom-[76.5px] w-[91.3px] h-[91.4px] z-[4]" alt=""
+          src="/public/icon-23.svg" />
+
+        <img class="absolute my-0 mx-[!important] right-[404.4px] bottom-[68.5px] w-[107.3px] h-[107.4px] z-[4]" alt=""
+          src="/public/icon-24.svg" />
+
+        <div class="w-[452px] flex flex-col items-center justify-start gap-[30px] max-w-full shrink-0">
+          <div class="w-[184px] flex flex-row items-start justify-start py-0 pr-0 pl-[9px] box-border">
+            <div class="flex-1 flex flex-col items-start justify-start gap-[7px]">
+              <b class="self-stretch relative z-[2] mq450:text-base">
+                <span class="uppercase">W</span>
+                <span class="lowercase">orking </span>
+                <span class="uppercase">P</span>
+                <span class="lowercase">rocess</span>
+              </b>
+              <img class="relative w-[164.2px] h-[3px] z-[2]" alt="" src="/public/design-6.svg" />
+            </div>
+          </div>
+          <h1
+            class="m-0 self-stretch relative text-29xl leading-[68px] capitalize font-bold font-manrope text-center flex items-center justify-center h-[38.7px] shrink-0 z-[2] mq450:text-10xl mq450:leading-[41px] mq900:text-19xl mq900:leading-[54px]">
+            How do we works
+          </h1>
+        </div>
+        <div
+          class="w-[1318px] grid flex-row items-start justify-start py-0 pr-0.5 pl-0 box-border gap-[20px] max-w-full shrink-0 grid-cols-[repeat(4,_minmax(235px,_1fr))] text-center text-base font-manrope mq900:grid-cols-[minmax(235px,_1fr)] mq1325:justify-center mq1325:grid-cols-[repeat(2,_minmax(235px,_408px))]">
+          <div class="h-[362px] flex flex-col items-start justify-start gap-[34px] mq450:gap-[17px]">
+            <div class="self-stretch flex-1 relative">
+              <img class="absolute top-[-0.3px] left-[-0.1px] w-full h-full z-[2]" alt="" src="/public/vector-16.svg" />
+
+              <div class="absolute top-[20px] left-[19.5px] h-[273px] flex flex-col items-center justify-start">
+                <img class="relative w-[272.6px] h-[272.8px] z-[3]" alt="" src="/public/vector-17.svg" />
+
+                <div class="relative leading-[28px] z-[4] mt-[-172px]">
+                  <p class="m-0">
+                    <span class="uppercase">S</span>
+                    <span class="lowercase">ed do eiusmod tempor incididunt ut labore et
+                      dolore</span>
+                  </p>
+                  <p class="m-0 lowercase">magna aliqua</p>
+                </div>
+              </div>
+            </div>
+            <div class="h-[18px] flex flex-row items-start justify-start py-0 px-[29px] box-border text-left">
+              <b class="relative leading-[32px] flex items-center h-[17.6px] z-[2]">Choose Your Property</b>
+            </div>
+          </div>
+          <div class="flex flex-col items-center justify-start gap-[34px] mq450:gap-[17px]">
+            <div class="self-stretch flex flex-row items-center justify-center pt-[21px] px-[17px] pb-[17px] relative">
+              <img
+                class="absolute my-0 mx-[!important] h-full w-full top-[-0.3px] right-[1.2px] bottom-[0.9px] left-[-0.9px] max-w-full overflow-hidden max-h-full z-[2]"
+                alt="" src="/public/group-9.svg" />
+
+              <div class="flex flex-row items-center justify-center pt-[100px] pb-[99px] pr-[22px] pl-[21px] relative">
+                <img
+                  class="absolute my-0 mx-[!important] h-full w-full top-[0.3px] right-[0.2px] bottom-[-0.1px] left-[0.2px] max-w-full overflow-hidden max-h-full z-[3]"
+                  alt="" src="/public/group-10.svg" />
+
+                <div class="relative leading-[28px] z-[4]">
+                  <p class="m-0">
+                    <span class="uppercase">S</span>
+                    <span class="lowercase">ed do eiusmod tempor incididunt ut labore et
+                      dolore</span>
+                  </p>
+                  <p class="m-0 lowercase">magna aliqua</p>
+                </div>
+              </div>
+            </div>
+            <div class="h-[18px] flex flex-row items-start justify-start py-0 pr-2 pl-0 box-border text-left">
+              <b class="relative leading-[32px] flex items-center h-[17.6px] z-[2]">Make Appointment</b>
+            </div>
+          </div>
+          <div class="flex flex-col items-center justify-start gap-[34px] mq450:gap-[17px]">
+            <div class="self-stretch flex flex-row items-center justify-center pt-[21px] px-[17px] pb-[17px] relative">
+              <img
+                class="absolute my-0 mx-[!important] h-full w-full top-[-0.3px] right-[0.5px] bottom-[0.9px] left-[-0.2px] max-w-full overflow-hidden max-h-full z-[2]"
+                alt="" src="/public/group-9.svg" />
+
+              <div class="flex flex-row items-center justify-center pt-[100px] px-[22px] pb-[99px] relative">
+                <img
+                  class="absolute my-0 mx-[!important] h-full w-full top-[0.3px] right-[0.5px] bottom-[-0.1px] left-[-0.1px] max-w-full overflow-hidden max-h-full z-[3]"
+                  alt="" src="/public/group-10.svg" />
+
+                <div class="relative leading-[28px] z-[4]">
+                  <p class="m-0">
+                    <span class="uppercase">S</span>
+                    <span class="lowercase">ed do eiusmod tempor incididunt ut labore et
+                      dolore</span>
+                  </p>
+                  <p class="m-0 lowercase">magna aliqua</p>
+                </div>
+              </div>
+            </div>
+            <div class="h-[18px] flex flex-row items-start justify-start py-0 pr-[23px] pl-0 box-border text-left">
+              <b class="relative leading-[32px] flex items-center h-[17.6px] z-[2]">Make Payment</b>
+            </div>
+          </div>
+          <div class="h-[363px] flex flex-col items-center justify-start gap-[34px] mq450:gap-[17px]">
+            <div
+              class="self-stretch flex-1 flex flex-row items-center justify-center pt-[21px] px-[17px] pb-[17px] relative">
+              <img
+                class="absolute my-0 mx-[!important] h-full w-full top-[-0.3px] right-[0.7px] bottom-[0.9px] left-[-0.4px] max-w-full overflow-hidden max-h-full z-[2]"
+                alt="" src="/public/group-9.svg" />
+
+              <div
+                class="self-stretch flex flex-row items-center justify-center pt-[100px] px-[22px] pb-[99px] relative">
+                <img
+                  class="absolute my-0 mx-[!important] h-full w-full top-[0.3px] right-[0.8px] bottom-[-0.1px] left-[-0.4px] max-w-full overflow-hidden max-h-full z-[3]"
+                  alt="" src="/public/group-10.svg" />
+
+                <div class="self-stretch relative leading-[28px] flex items-center z-[4]">
+                  <span>
+                    <p class="m-0">
+                      <span class="uppercase">S</span>
+                      <span class="lowercase">ed do eiusmod tempor incididunt ut labore et
+                        dolore</span>
+                    </p>
+                    <p class="m-0 lowercase">magna aliqua</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <b class="relative leading-[32px] flex text-left items-center h-[17.6px] shrink-0 z-[5]">Enjoy Property
+              Services</b>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="w-[1358px] flex flex-col items-center justify-start py-0 px-5 box-border gap-[60px] min-h-[874px] max-w-full shrink-0 text-left text-xl text-blue font-helvetica mq900:gap-[30px]">
+      <div class="flex flex-col items-center justify-start gap-[30px] max-w-full">
+        <div class="flex flex-row items-start justify-start py-0 pr-0 pl-1.5">
+          <div class="flex flex-col items-start justify-start gap-[7px]">
+            <b class="relative mq450:text-base">
+              <span class="uppercase">O</span>
+              <span class="lowercase">ur</span>
+              <span class="uppercase"> A</span>
+              <span class="lowercase">gents</span>
+            </b>
+            <div class="flex flex-row items-start justify-start py-0 px-[3px]">
+              <img class="relative w-[104.4px] h-[3px]" alt="" src="/public/design-7.svg" />
+            </div>
+          </div>
+        </div>
+        <h1
+          class="m-0 relative text-29xl leading-[68px] capitalize font-bold font-manrope text-black flex items-center h-[38.7px] shrink-0 mq450:text-10xl mq450:leading-[41px] mq900:text-19xl mq900:leading-[54px]">
+          Meet Our Agents
+        </h1>
+      </div>
+      <div
+        class="self-stretch grid flex-row items-start justify-start py-0 pr-px pl-0 box-border gap-[29px] max-w-full grid-cols-[repeat(3,_minmax(315px,_1fr))] text-5xl text-white1 font-manrope mq900:grid-cols-[minmax(315px,_1fr)] mq1325:justify-center mq1325:grid-cols-[repeat(2,_minmax(315px,_546px))]">
+        <img class="relative max-w-full overflow-hidden max-h-full object-cover min-h-[506px] mq900:w-full" alt=""
+          src="/public/image-5@2x.png" />
+
+        <div
+          class="flex flex-row items-center justify-center pt-[22px] pb-[21px] pr-[29px] pl-7 box-border relative bg-[url('/public/image@2x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq900:pt-5 mq900:pb-5 mq900:box-border">
+          <img class="relative max-h-full w-[420px] object-cover hidden max-w-full z-[0]" alt=""
+            src="/public/image@2x.png" />
+
+          <div
+            class="absolute my-0 mx-[!important] h-full w-full top-[-0.4px] right-[0px] bottom-[0.4px] left-[0px] bg-midnightblue z-[1]">
+          </div>
+          <div
+            class="flex-1 box-border flex flex-col items-center justify-start pt-[164px] pb-[163px] pr-[53px] pl-[55px] gap-[25px] max-w-full z-[3] border-[1px] border-solid border-white mq450:pt-[107px] mq450:px-5 mq450:pb-[106px] mq450:box-border">
+            <div class="flex flex-col items-center justify-start gap-[5px]">
+              <h3 class="m-0 relative text-inherit capitalize font-bold font-inherit z-[2] mq450:text-lgi">
+                Mattie Joseph
+              </h3>
+              <div class="flex flex-row items-start justify-start py-0 pr-[3px] pl-0 text-base">
+                <div class="relative capitalize font-semibold z-[2]">
+                  Broker
+                </div>
+              </div>
+            </div>
+            <div
+              class="self-stretch flex flex-row items-start justify-center py-0 pr-0.5 pl-0 gap-[17px] mq450:flex-wrap">
+              <img class="relative w-[50px] h-[50px] min-h-[50px] z-[2]" alt="" src="/public/facebook-1.svg" />
+
+              <img class="relative w-[50px] h-[50px] min-h-[50px] z-[2]" alt="" src="/public/instagram-1.svg" />
+
+              <img class="relative w-[50px] h-[50px] min-h-[50px] z-[2]" alt="" src="/public/twitter-1.svg" />
+
+              <img class="relative w-[50px] h-[50px] min-h-[50px] z-[2]" alt="" src="/public/linkdin-1.svg" />
+            </div>
+            <div
+              class="relative box-border w-[362.5px] h-[462.9px] hidden max-w-full border-[1px] border-solid border-white">
+            </div>
+          </div>
+        </div>
+        <img class="relative max-w-full overflow-hidden max-h-full object-cover min-h-[506px] mq900:w-full" alt=""
+          src="/public/image-6@2x.png" />
+      </div>
+      <div class="flex flex-row items-start justify-start py-0 pr-[17px] pl-0">
+        <div class="h-[5px] flex flex-row items-start justify-start py-0 pr-px pl-0 box-border gap-[6px]">
+          <div class="relative rounded-sm bg-gray-200 w-[26.4px] h-[5.3px]"></div>
+          <div class="relative rounded-sm bg-blue w-[26.4px] h-[5.3px]"></div>
+          <div class="relative rounded-sm bg-dimgray w-[26.4px] h-[5.3px]"></div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="w-[1360px] flex flex-col items-start justify-start py-0 px-5 box-border gap-[150px] min-h-[1397px] max-w-full shrink-0 text-left text-xl text-blue font-helvetica mq450:gap-[19px] mq900:gap-[37px] mq1325:gap-[75px]">
+      <div class="self-stretch flex flex-col items-center justify-start gap-[60px] max-w-full mq900:gap-[30px]">
+        <div class="flex flex-row items-start justify-start py-0 pr-0 pl-2 box-border max-w-full">
+          <div class="flex flex-col items-center justify-start gap-[30px] max-w-full">
+            <div class="h-[26px] flex flex-row items-start justify-start py-0 pr-[9px] pl-0 box-border">
+              <div class="self-stretch flex flex-col items-center justify-start gap-[7px]">
+                <b class="flex-1 relative flex items-center mq450:text-base">
+                  <span class="[line-break:anywhere]">
+                    <span class="uppercase">T</span>
+                    <span class="lowercase">estimonials</span>
+                  </span>
+                </b>
+                <img class="relative w-[118.5px] h-[3px]" alt="" src="/public/design-8.svg" />
+              </div>
+            </div>
+            <h1
+              class="m-0 relative text-29xl leading-[68px] capitalize font-bold font-manrope text-black flex items-center h-[38.7px] shrink-0 mq450:text-10xl mq450:leading-[41px] mq900:text-19xl mq900:leading-[54px]">
+              Clients Feedback
+            </h1>
+          </div>
+        </div>
+        <div
+          class="self-stretch grid flex-row items-start justify-start gap-[30px] max-w-full grid-cols-[repeat(3,_minmax(315px,_1fr))] text-mid text-paragraph-text-color font-h6 mq900:grid-cols-[minmax(315px,_1fr)] mq1325:justify-center mq1325:grid-cols-[repeat(2,_minmax(315px,_546px))]">
+          <div class="flex flex-col items-start justify-start max-w-full">
+            <img class="relative rounded-[50%] w-[130px] h-[130px] object-cover z-[1]" alt=""
+              src="/public/comments-frame@2x.png" />
+
+            <div
+              class="self-stretch flex flex-col items-center justify-start pt-[95px] pb-[41px] pr-[34px] pl-[35px] relative gap-[18px] mt-[-65px]">
+              <div class="self-stretch flex flex-col items-start justify-start gap-[25px]">
+                <div class="self-stretch relative leading-[30px] inline-block h-[84px] shrink-0 z-[1]">
+                  Dramatically supply transparent deliverab before & you
+                  backward comp internal or "organic" sources.
+                </div>
+                <h3 class="m-0 relative text-5xl font-bold font-inherit text-blue z-[1] mq450:text-lgi">
+                  Courtney Henry
+                </h3>
+              </div>
+              <div class="self-stretch flex flex-row items-start justify-start text-base text-orange">
+                <div class="relative z-[1]">Sr. UX/UI Designer</div>
+              </div>
+              <div class="absolute my-0 mx-[!important] h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px]">
+                <div
+                  class="absolute h-full w-full top-[0.4px] right-[0px] bottom-[-0.4px] left-[0px] rounded-mini flex items-center justify-center">
+                  <img
+                    class="h-full w-full max-w-full overflow-hidden max-h-full object-contain absolute left-[5px] top-[8px] [transform:scale(1.065)]"
+                    alt="" src="/public/subtract.svg" />
+                </div>
+                <img class="absolute top-[40.4px] left-[358px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlybulkstar.svg" />
+
+                <img class="absolute top-[40.4px] left-[332px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlyboldstar.svg" />
+
+                <img class="absolute top-[40.4px] left-[306px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlyboldstar.svg" />
+
+                <img class="absolute top-[40.4px] left-[280px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlyboldstar.svg" />
+
+                <img class="absolute top-[40.4px] left-[254px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlyboldstar.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col items-start justify-start max-w-full">
+            <img class="relative rounded-[50%] w-[130px] h-[130px] object-cover z-[1]" alt=""
+              src="/public/ellipse-79-1@2x.png" />
+
+            <div
+              class="self-stretch flex flex-col items-center justify-start pt-[95px] pb-[41px] pr-[34px] pl-[35px] relative gap-[18px] mt-[-65px]">
+              <div class="self-stretch flex flex-col items-start justify-start gap-[25px]">
+                <div class="self-stretch relative leading-[30px] inline-block h-[84px] shrink-0 z-[1]">
+                  Dramatically supply transparent deliverab before & you
+                  backward comp internal or "organic" sources.
+                </div>
+                <h3 class="m-0 relative text-5xl font-bold font-inherit text-blue z-[1] mq450:text-lgi">
+                  Leslie Alexander
+                </h3>
+              </div>
+              <div class="self-stretch flex flex-row items-start justify-start text-base text-orange">
+                <div class="relative z-[1]">Bank Of America</div>
+              </div>
+              <div class="absolute my-0 mx-[!important] h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px]">
+                <div
+                  class="absolute h-full w-full top-[0.4px] right-[-0.2px] bottom-[-0.4px] left-[0.2px] rounded-mini flex items-center justify-center">
+                  <img
+                    class="h-full w-full max-w-full overflow-hidden max-h-full object-contain absolute left-[5px] top-[8px] [transform:scale(1.065)]"
+                    alt="" src="/public/subtract.svg" />
+                </div>
+                <img class="absolute top-[40.4px] left-[358.2px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlybulkstar.svg" />
+
+                <img class="absolute top-[40.4px] left-[332.2px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlyboldstar.svg" />
+
+                <img class="absolute top-[40.4px] left-[306.2px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlyboldstar.svg" />
+
+                <img class="absolute top-[40.4px] left-[280.2px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlyboldstar.svg" />
+
+                <img class="absolute top-[40.4px] left-[254.2px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlyboldstar.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col items-start justify-start max-w-full">
+            <img class="relative rounded-[50%] w-[130px] h-[130px] object-cover z-[1]" alt=""
+              src="/public/ellipse-79-2@2x.png" />
+
+            <div
+              class="self-stretch flex flex-col items-center justify-start pt-[95px] pb-[41px] pr-[34px] pl-[35px] relative gap-[18px] mt-[-65px]">
+              <div class="self-stretch flex flex-col items-start justify-start gap-[25px]">
+                <div class="self-stretch relative leading-[30px] inline-block h-[84px] shrink-0 z-[1]">
+                  Dramatically supply transparent deliverab before & you
+                  backward comp internal or "organic" sources.
+                </div>
+                <h3 class="m-0 relative text-5xl font-bold font-inherit text-blue z-[1] mq450:text-lgi">
+                  Madge Marvin
+                </h3>
+              </div>
+              <div class="self-stretch flex flex-row items-start justify-start text-base text-orange">
+                <div class="relative z-[1]">Web Developer</div>
+              </div>
+              <div class="absolute my-0 mx-[!important] h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px]">
+                <div
+                  class="absolute h-full w-full top-[0.4px] right-[-0.3px] bottom-[-0.4px] left-[0.3px] rounded-mini flex items-center justify-center">
+                  <img
+                    class="h-full w-full max-w-full overflow-hidden max-h-full object-contain absolute left-[5px] top-[8px] [transform:scale(1.065)]"
+                    alt="" src="/public/subtract.svg" />
+                </div>
+                <img class="absolute top-[40.4px] left-[358.3px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlybulkstar.svg" />
+
+                <img class="absolute top-[40.4px] left-[332.3px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlyboldstar.svg" />
+
+                <img class="absolute top-[40.4px] left-[306.3px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlyboldstar.svg" />
+
+                <img class="absolute top-[40.4px] left-[280.3px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlyboldstar.svg" />
+
+                <img class="absolute top-[40.4px] left-[254.3px] w-[21.1px] h-5 z-[1]" alt=""
+                  src="/public/iconlyboldstar.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="h-[5px] flex flex-row items-start justify-start py-0 pr-px pl-0 box-border gap-[6px]">
+          <div class="relative rounded-sm bg-gray-200 w-[26.4px] h-[5.3px]"></div>
+          <div class="relative rounded-sm bg-blue w-[26.4px] h-[5.3px]"></div>
+          <div class="relative rounded-sm bg-dimgray w-[26.4px] h-[5.3px]"></div>
+        </div>
+      </div>
+      <div class="self-stretch flex flex-col items-center justify-start max-w-full text-29xl text-white font-manrope">
+        <div class="w-[135px] flex flex-row items-center justify-center">
+          <div class="flex-1 relative h-[135px]">
+            <div class="absolute top-[-0.4px] left-[-0.4px] rounded-[50%] bg-blue w-full h-full"></div>
+            <img class="absolute top-[39.5px] left-[37.8px] w-[57.5px] h-[46px] z-[2]" alt=""
+              src="/public/icon-25.svg" />
+          </div>
+        </div>
+        <div
+          class="self-stretch flex flex-col items-center justify-start pt-[136px] px-5 pb-[82px] box-border relative gap-[35px] max-w-full mt-[-71px] mq450:pt-[136px] mq450:pb-[53px] mq450:box-border mq900:gap-[17px]">
+          <img
+            class="absolute my-0 mx-[!important] h-full w-full top-[-0.5px] right-[0.1px] bottom-[1.5px] left-[0.2px] max-w-full overflow-hidden max-h-full object-cover z-[1]"
+            alt="" src="/public/mask-group@2x.png" />
+
+          <div class="flex flex-col items-center justify-start gap-[26px] max-w-full">
+            <h1
+              class="m-0 relative text-inherit capitalize font-bold font-inherit flex items-center h-[45.4px] shrink-0 z-[2] mq450:text-10xl mq900:text-19xl">
+              Subscribe For Newsletter
+            </h1>
+            <div
+              class="relative text-base leading-[28px] whitespace-pre-wrap text-center flex items-center justify-center w-[506px] max-w-full z-[2]">
+              Be the first one to know about discounts, offers and events.
+              Unsubscribe whenever you like.
+            </div>
+          </div>
+          <div
+            class="rounded-sm bg-white w-[533px] flex flex-row items-center justify-between py-[9px] pr-[9px] pl-4 box-border gap-[20px] max-w-full z-[2] text-center text-xl text-paragrapg-text mq450:flex-wrap">
+            <div class="relative rounded-sm bg-white w-[533.2px] h-20 hidden max-w-full"></div>
+            <div class="relative z-[1] mq450:text-base">Enter your email</div>
+            <button
+              class="cursor-pointer [border:none] py-[25px] pr-[22px] pl-[25px] bg-orange rounded-sm h-[62px] flex flex-row items-center justify-center box-border whitespace-nowrap z-[1] hover:bg-tomato">
+              <div
+                class="self-stretch relative text-sm font-medium font-manrope text-white1 text-left flex items-center">
+                Subscribe Now
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="w-[1362px] flex flex-col items-end justify-start py-0 px-5 box-border gap-[61px] min-h-[990px] max-w-full shrink-0 text-left text-xl text-blue font-helvetica mq450:gap-[15px] mq900:gap-[30px]">
+      <div
+        class="self-stretch flex flex-row items-center justify-between py-0 pr-px pl-0 box-border gap-[20px] max-w-full mq900:flex-wrap">
+        <div class="w-[581px] flex flex-col items-start justify-start gap-[30px] max-w-full">
+          <div class="flex flex-col items-start justify-start gap-[7px]">
+            <b class="relative mq450:text-base">
+              <span class="uppercase">B</span>
+              <span class="lowercase">log & </span>
+              <span class="uppercase">N</span>
+              <span class="lowercase">ews</span>
+            </b>
+            <img class="relative w-[120.1px] h-[3px]" alt="" src="/public/design-9.svg" />
+          </div>
+          <h1
+            class="m-0 self-stretch relative text-29xl leading-[68px] capitalize font-bold font-manrope text-black flex items-center h-[38.7px] shrink-0 mq450:text-10xl mq450:leading-[41px] mq900:text-19xl mq900:leading-[54px]">
+            Our Latest Blog & News
+          </h1>
+        </div>
+        <div class="flex flex-row items-start justify-start py-5 pr-px pl-0 gap-[19px]">
+          <img class="relative rounded-11xl w-[50px] h-[50px] overflow-hidden shrink-0 min-h-[50px]" alt=""
+            src="/public/rhs-arrow-icon.svg" />
+
+          <img class="relative rounded-11xl w-[50px] h-[50px] overflow-hidden shrink-0 min-h-[50px]" alt=""
+            src="/public/lhs-arrow-icon.svg" />
+        </div>
+      </div>
+      <div
+        class="w-[1321px] overflow-x-auto flex flex-row items-start justify-start py-0 pr-[3px] pl-0 box-border gap-[29px] max-w-full text-justify text-base text-paragraph-text-color font-manrope">
+        <div class="w-[420px] shrink-0 flex flex-row items-center justify-center">
+          <div
+            class="flex-1 rounded-t-3xs rounded-b-none bg-ash-color shadow-[5px_8px_30px_rgba(0,_0,_0,_0.05)] flex flex-col items-center justify-start pt-0 px-0 pb-[25px] box-border gap-[25px] max-w-full">
+            <div
+              class="self-stretch relative rounded-t-3xs rounded-b-none bg-ash-color shadow-[5px_8px_30px_rgba(0,_0,_0,_0.05)] h-[685.5px] hidden">
+            </div>
+            <img
+              class="self-stretch relative rounded-t-3xs rounded-b-none max-w-full overflow-hidden h-[285.7px] shrink-0 object-cover z-[1]"
+              alt="" src="/public/image-7@2x.png" />
+
+            <div class="flex flex-row items-start justify-start py-0 px-[19px] gap-[28px] mq450:flex-wrap">
+              <div class="flex flex-row items-center justify-start gap-[11px] text-paragraph">
+                <img class="relative w-[15.2px] h-[17.3px] z-[1]" alt="" src="/public/icon-26.svg" />
+
+                <div class="relative capitalize flex items-center h-[13.2px] z-[1]">
+                  05 Dec 2022
+                </div>
+              </div>
+              <div class="flex flex-row items-center justify-start gap-[11px]">
+                <img class="relative w-[25.4px] h-[17.3px] z-[1]" alt="" src="/public/vector-18.svg" />
+
+                <div class="relative capitalize z-[1]">1000</div>
+              </div>
+              <div class="flex flex-row items-center justify-start gap-[10px] text-left">
+                <img class="relative w-[19.7px] h-[17.2px] z-[1]" alt="" src="/public/icon-27.svg" />
+
+                <div class="relative z-[1]">12 Comments</div>
+              </div>
+            </div>
+            <h3
+              class="m-0 relative text-5xl [text-decoration:underline] capitalize font-semibold font-inherit text-orange text-left flex items-center w-[380.2px] max-w-full z-[1] mq450:text-lgi">
+              7 home trends that will shape your house
+            </h3>
+            <div class="relative leading-[28px] text-left flex items-center h-[77.9px] shrink-0 max-w-full z-[1]">
+              <span>
+                <p class="m-0">
+                  <span class="uppercase">D</span>
+                  <span class="lowercase">uis aute irure dolor in reprehenderit into volupjl</span>
+                </p>
+                <p class="m-0 lowercase">
+                  tate velit esse cillum dolore eu fugiat nulla partr
+                </p>
+                <p class="m-0 lowercase">
+                  iatur sunt in culp qui officia deserunt mollit
+                </p>
+              </span>
+            </div>
+            <div
+              class="self-stretch relative box-border h-[0.5px] z-[1] border-t-[0.5px] border-solid border-paragraph-text-color">
+            </div>
+            <div
+              class="self-stretch flex flex-row items-center justify-between py-0 px-[19px] gap-[20px] mq450:flex-wrap">
+              <div class="flex flex-row items-center justify-start gap-[15px]">
+                <img class="relative rounded-11xl w-[30px] h-[30px] object-cover z-[1]" alt=""
+                  src="/public/image-8@2x.png" />
+
+                <div class="relative capitalize z-[1]">David Smith</div>
+              </div>
+              <div class="flex flex-row items-center justify-start gap-[16px] text-left">
+                <img class="relative w-[15px] h-[15px] z-[1]" alt="" src="/public/iconlylightoutlinetimecircle.svg" />
+
+                <div class="relative z-[1]">2 minutes ago</div>
+              </div>
+            </div>
+            <div
+              class="self-stretch relative box-border h-[0.5px] z-[1] border-t-[0.5px] border-solid border-paragraph-text-color">
+            </div>
+            <div
+              class="self-stretch flex flex-row items-center justify-between py-0 pr-[21px] pl-[19px] gap-[20px] text-orange">
+              <div class="relative capitalize font-medium z-[1]">
+                Read More
+              </div>
+              <img class="relative w-[22.1px] h-[22.1px] z-[1]" alt="" src="/public/arrows-icon-6.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="w-[421px] shrink-0 flex flex-row items-center justify-center">
+          <div
+            class="flex-1 rounded-t-3xs rounded-b-none bg-ash-color shadow-[5px_8px_30px_rgba(0,_0,_0,_0.05)] flex flex-col items-center justify-start pt-0 pb-[25px] pr-0 pl-px box-border gap-[26px] max-w-full">
+            <div
+              class="self-stretch relative rounded-t-3xs rounded-b-none bg-ash-color shadow-[5px_8px_30px_rgba(0,_0,_0,_0.05)] h-[685.5px] hidden">
+            </div>
+            <img
+              class="self-stretch relative rounded-t-3xs rounded-b-none max-w-full overflow-hidden h-[285.7px] shrink-0 object-cover z-[1]"
+              alt="" src="/public/image-9@2x.png" />
+
+            <div class="self-stretch flex flex-row items-start justify-start py-0 pr-[17px] pl-5 box-border max-w-full">
+              <div
+                class="flex-1 flex flex-row items-start justify-start py-0 pr-0.5 pl-0 box-border gap-[25px] max-w-full mq450:flex-wrap">
+                <div class="flex flex-row items-center justify-start py-0 pr-px pl-0 gap-[9px] text-paragraph">
+                  <img class="relative w-[15.2px] h-[17.3px] z-[1]" alt="" src="/public/icon-26.svg" />
+
+                  <div class="relative capitalize flex items-center h-[13.2px] z-[1]">
+                    06 Dec 2022
+                  </div>
+                </div>
+                <div class="flex flex-row items-center justify-start gap-[10px]">
+                  <img class="relative w-[25.4px] h-[17.3px] z-[1]" alt="" src="/public/vector-18.svg" />
+
+                  <div class="relative capitalize z-[1]">2000</div>
+                </div>
+                <div class="flex flex-row items-center justify-start py-0 pr-px pl-0 gap-[9px] text-left">
+                  <img class="relative w-[19.7px] h-[17.2px] z-[1]" alt="" src="/public/icon-27.svg" />
+
+                  <div class="relative z-[1]">13 Comments</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="self-stretch flex flex-col items-start justify-start py-0 pr-[19px] pl-[18px] gap-[10px] shrink-0 text-left text-5xl text-orange">
+              <h3
+                class="m-0 self-stretch relative text-inherit [text-decoration:underline] capitalize font-semibold font-inherit flex items-center z-[1] mq450:text-lgi">
+                Renovating a Living Room? Experts Share Their Secrets
+              </h3>
+              <div
+                class="self-stretch flex flex-col items-start justify-start py-0 pr-0.5 pl-0 gap-[25px] text-justify text-base text-paragraph-text-color">
+                <div class="relative leading-[28px] text-left flex items-center h-[77.9px] shrink-0 z-[1]">
+                  <span>
+                    <p class="m-0">
+                      <span class="uppercase">D</span>
+                      <span class="lowercase">uis aute irure dolor in reprehenderit into
+                        volupjl</span>
+                    </p>
+                    <p class="m-0 lowercase">
+                      tate velit esse cillum dolore eu fugiat nulla partr
+                    </p>
+                    <p class="m-0 lowercase">
+                      iatur sunt in culp qui officia deserunt mollit
+                    </p>
+                  </span>
+                </div>
+                <div
+                  class="self-stretch relative box-border h-[0.5px] z-[1] border-t-[0.5px] border-solid border-paragraph-text-color">
+                </div>
+                <div
+                  class="self-stretch flex flex-row items-center justify-between py-0 pr-px pl-0 gap-[20px] mq450:flex-wrap">
+                  <div class="flex flex-row items-center justify-start py-0 pr-px pl-0 gap-[14px]">
+                    <img class="relative rounded-11xl w-[30px] h-[30px] object-cover z-[1]" alt=""
+                      src="/public/image-10@2x.png" />
+
+                    <div class="relative capitalize z-[1]">John Doe</div>
+                  </div>
+                  <div class="flex flex-row items-center justify-start py-0 pr-px pl-0 gap-[14px] text-left">
+                    <img class="relative w-[15px] h-[15px] z-[1]" alt=""
+                      src="/public/iconlylightoutlinetimecircle.svg" />
+
+                    <div class="relative z-[1]">3 minutes ago</div>
+                  </div>
+                </div>
+                <div
+                  class="self-stretch relative box-border h-[0.5px] z-[1] border-t-[0.5px] border-solid border-paragraph-text-color">
+                </div>
+                <div
+                  class="self-stretch flex flex-row items-center justify-between py-0 pr-px pl-0 gap-[20px] text-orange">
+                  <div class="relative capitalize font-medium z-[1]">
+                    Read More
+                  </div>
+                  <img class="relative w-[22.1px] h-[22.1px] z-[1]" alt="" src="/public/arrows-icon-6.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[420px] shrink-0 flex flex-row items-center justify-center">
+          <div
+            class="flex-1 rounded-t-3xs rounded-b-none bg-ash-color shadow-[5px_8px_30px_rgba(0,_0,_0,_0.05)] flex flex-col items-center justify-start pt-0 px-0 pb-[25px] box-border gap-[25px] max-w-full">
+            <div
+              class="self-stretch relative rounded-t-3xs rounded-b-none bg-ash-color shadow-[5px_8px_30px_rgba(0,_0,_0,_0.05)] h-[685.5px] hidden">
+            </div>
+            <img
+              class="self-stretch relative rounded-t-3xs rounded-b-none max-w-full overflow-hidden h-[285.7px] shrink-0 object-cover z-[1]"
+              alt="" src="/public/image-11@2x.png" />
+
+            <div class="flex flex-row items-start justify-start py-0 pr-[21px] pl-[19px] gap-[25px] mq450:flex-wrap">
+              <div class="flex flex-row items-center justify-start gap-[10px] text-paragraph">
+                <img class="relative w-[15.2px] h-[17.3px] z-[1]" alt="" src="/public/icon-26.svg" />
+
+                <div class="relative capitalize flex items-center h-[13.2px] z-[1]">
+                  07 Dec 2022
+                </div>
+              </div>
+              <div class="flex flex-row items-center justify-start gap-[10px]">
+                <img class="relative w-[25.4px] h-[17.3px] z-[1]" alt="" src="/public/vector-18.svg" />
+
+                <div class="relative capitalize z-[1]">3000</div>
+              </div>
+              <div class="flex flex-row items-center justify-start py-0 pr-px pl-0 gap-[9px] text-left">
+                <img class="relative w-[19.7px] h-[17.2px] z-[1]" alt="" src="/public/icon-27.svg" />
+
+                <div class="relative z-[1]">14 Comments</div>
+              </div>
+            </div>
+            <h3
+              class="m-0 relative text-5xl [text-decoration:underline] capitalize font-semibold font-inherit text-orange text-left flex items-center w-[380.2px] max-w-full z-[1] mq450:text-lgi">
+              Recent Commercial Real Estate Transactions
+            </h3>
+            <div class="relative leading-[28px] text-left flex items-center h-[77.9px] shrink-0 max-w-full z-[1]">
+              <span>
+                <p class="m-0">
+                  <span class="uppercase">D</span>
+                  <span class="lowercase">uis aute irure dolor in reprehenderit into volupjl</span>
+                </p>
+                <p class="m-0 lowercase">
+                  tate velit esse cillum dolore eu fugiat nulla partr
+                </p>
+                <p class="m-0 lowercase">
+                  iatur sunt in culp qui officia deserunt mollit
+                </p>
+              </span>
+            </div>
+            <div
+              class="self-stretch relative box-border h-[0.5px] z-[1] border-t-[0.5px] border-solid border-paragraph-text-color">
+            </div>
+            <div
+              class="self-stretch flex flex-row items-start justify-start py-0 pr-[18px] pl-[21px] box-border max-w-full">
+              <div
+                class="flex-1 flex flex-row items-center justify-between py-0 pr-px pl-0 box-border gap-[20px] max-w-full mq450:flex-wrap">
+                <div class="flex flex-row items-center justify-start gap-[15px]">
+                  <img class="relative rounded-11xl w-[30px] h-[30px] object-cover z-[1]" alt=""
+                    src="/public/image-12@2x.png" />
+
+                  <a class="relative capitalize text-[inherit] [text-decoration:none] z-[1]"
+                    href="https://themexriver.com/wp/quarter/author/quarter/" target="_blank">William Seklo</a>
+                </div>
+                <div class="flex flex-row items-center justify-start py-0 pr-px pl-0 gap-[14px] text-left">
+                  <img class="relative w-[15px] h-[15px] z-[1]" alt="" src="/public/iconlylightoutlinetimecircle.svg" />
+
+                  <div class="relative z-[1]">4 minutes ago</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="self-stretch relative box-border h-[0.5px] z-[1] border-t-[0.5px] border-solid border-paragraph-text-color">
+            </div>
+            <div
+              class="self-stretch flex flex-row items-center justify-between py-0 pr-5 pl-[19px] gap-[20px] text-orange">
+              <div class="relative capitalize font-medium z-[1]">
+                Read More
+              </div>
+              <img class="relative w-[22.1px] h-[22.1px] z-[1]" alt="" src="/public/arrows-icon-6.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- main footer  -->
+    <footer
+      class="self-stretch bg-blue flex flex-row items-start justify-between pt-[111px] pb-[110px] pr-[299px] pl-[300px] box-border gap-[20px] max-w-full shrink-0 text-left text-5xl text-white font-manrope mq900:pt-[72px] mq900:pb-[71px] mq900:pr-[74px] mq900:pl-[75px] mq900:box-border mq1325:pl-[150px] mq1325:pr-[149px] mq1325:box-border mq1700:flex-wrap">
+      <div class="relative bg-blue w-[1920px] h-[500px] hidden max-w-full"></div>
+      <div class="w-[340px] flex flex-col items-start justify-start py-0 pr-2.5 pl-0 box-border gap-[30px] max-w-full">
+        <div class="flex flex-row items-end justify-start gap-[5px]">
+          <img class="relative w-[54.3px] h-[49.7px] z-[2]" alt="" src="/public/vector-1.svg" />
+
+          <div class="flex flex-col items-start justify-start pt-0 px-0 pb-[7px]">
+            <div class="flex flex-row items-start justify-start relative">
+              <img class="absolute my-0 mx-[!important] top-[-26.9px] left-[-26.9px] w-[54.3px] h-[49.7px] z-[1]" alt=""
+                src="/public/group.svg" />
+
+              <h3 class="m-0 relative text-inherit font-bold font-inherit z-[2] mq450:text-lgi">
+                Kavinax
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="self-stretch relative text-base leading-[28px] flex items-center h-[76.2px] shrink-0 z-[1]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna.
+        </div>
+        <div class="flex flex-row items-start justify-center gap-[20px] mq900:flex-wrap">
+          <img class="relative w-[50px] h-[50px] min-h-[50px] z-[1]" alt="" src="/public/facebook.svg" />
+
+          <img class="relative w-[50px] h-[50px] min-h-[50px] z-[1]" alt="" src="/public/instagram.svg" />
+
+          <img class="relative w-[50px] h-[50px] min-h-[50px] z-[1]" alt="" src="/public/twitter.svg" />
+
+          <img class="relative w-[50px] h-[50px] min-h-[50px] z-[1]" alt="" src="/public/linkdin.svg" />
+
+          <img class="relative w-[50px] h-[50px] min-h-[50px] z-[1]" alt="" src="/public/youtube.svg" />
+        </div>
+      </div>
+      <div class="w-[155px] flex flex-col items-start justify-start gap-[30px] text-base">
+        <div class="self-stretch flex flex-col items-start justify-start gap-[7px] text-5xl">
+          <div class="self-stretch flex flex-row items-start justify-start py-0 px-0">
+            <h3 class="m-0 flex-1 relative text-inherit font-bold font-inherit z-[1] mq450:text-lgi">
+              Quick Links
+            </h3>
+          </div>
+          <img class="relative w-[101.1px] h-[3.4px] z-[1]" alt="" src="/public/design-10.svg" />
+        </div>
+        <div
+          class="h-[19px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[10px] text-orange">
+          <img class="relative w-5 h-[18.5px] object-contain z-[1]" alt="" src="/public/vector-22.svg" />
+
+          <div class="relative z-[1]">About Us</div>
+        </div>
+        <div class="h-[19px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[10px]">
+          <img class="relative w-5 h-[18.5px] object-contain z-[1]" alt="" src="/public/vector-23.svg" />
+
+          <div class="relative z-[1]">Property</div>
+        </div>
+        <div class="flex flex-row items-center justify-start gap-[10px]">
+          <img class="relative w-5 h-[18.5px] object-contain z-[1]" alt="" src="/public/vector-24.svg" />
+
+          <div class="relative z-[1]">Our Agents</div>
+        </div>
+        <div class="h-5 flex flex-row items-end justify-start py-0 pr-px pl-0 box-border gap-[10px]">
+          <img class="relative w-5 h-[18.5px] object-contain z-[1]" alt="" src="/public/vector-23.svg" />
+
+          <div class="relative z-[1]">Careers</div>
+        </div>
+        <div class="h-[19px] flex flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[10px]">
+          <img class="relative w-5 h-[18.5px] object-contain z-[1]" alt="" src="/public/vector-23.svg" />
+
+          <div class="relative z-[1]">Contact</div>
+        </div>
+      </div>
+      <div class="flex flex-col items-start justify-start py-0 pr-2.5 pl-0 gap-[31px]">
+        <div class="w-[166px] flex flex-col items-start justify-start gap-[7px]">
+          <h3 class="m-0 self-stretch relative text-inherit font-bold font-inherit z-[1] mq450:text-lgi">
+            Recent Post
+          </h3>
+          <img class="relative w-[101.1px] h-[3.4px] z-[1]" alt="" src="/public/design-10.svg" />
+        </div>
+        <div class="flex flex-col items-start justify-start gap-[20px]">
+          <div class="flex flex-row items-start justify-start gap-[20px] mq450:flex-wrap">
+            <img class="relative w-[100px] h-[100px] object-cover min-h-[100px] z-[1]" loading="eager" alt=""
+              src="/public/rectangle-4618@2x.png" />
+
+            <img class="relative w-[100px] h-[100px] object-cover min-h-[100px] z-[1]" loading="eager" alt=""
+              src="/public/rectangle-4619@2x.png" />
+          </div>
+          <div class="flex flex-row items-start justify-start gap-[20px] mq450:flex-wrap">
+            <img class="relative w-[100px] h-[100px] object-cover min-h-[100px] z-[1]" loading="eager" alt=""
+              src="/public/rectangle-4620@2x.png" />
+
+            <img class="relative w-[100px] h-[100px] object-cover min-h-[100px] z-[1]" loading="eager" alt=""
+              src="/public/rectangle-4621@2x.png" />
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col items-start justify-start py-0 pr-px pl-0 gap-[30px] text-sm">
+        <div class="w-[155px] h-7 flex flex-col items-start justify-start gap-[4px] text-5xl">
+          <div class="self-stretch flex-1 flex flex-row items-start justify-start py-0 px-0">
+            <h3
+              class="m-0 self-stretch flex-1 relative text-inherit capitalize font-bold font-inherit flex items-center z-[1] mq450:text-lgi">
+              Contact Us
+            </h3>
+          </div>
+          <img class="relative w-[101.1px] h-[3.4px] z-[1]" alt="" src="/public/design-10.svg" />
+        </div>
+        <div class="flex flex-row items-center justify-start py-0 pr-px pl-0 gap-[14px] mq450:flex-wrap">
+          <input class="m-0 relative w-[50px] h-[50px] z-[1]" type="checkbox" />
+
+          <div class="h-9 flex flex-col items-start justify-start gap-[5px]">
+            <div class="relative flex items-center h-[11px] shrink-0 z-[1]">
+              Phone
+            </div>
+            <div class="relative text-base z-[1]">+44 (0) 20 9994 7740</div>
+          </div>
+        </div>
+        <div class="flex flex-row items-center justify-start gap-[14px] mq450:flex-wrap">
+          <img class="relative w-[50px] h-[50px] z-[1]" alt="" src="/public/email-icon-1.svg" />
+
+          <div class="h-[34px] flex flex-col items-start justify-start gap-[5px]">
+            <div class="flex-1 relative flex items-center z-[1]">Email</div>
+            <div class="relative text-base whitespace-nowrap z-[1]">
+              support@yourdomain.com
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-row items-center justify-start gap-[14px] mq450:flex-wrap">
+          <img class="relative w-[50px] h-[50px] z-[1]" alt="" src="/public/location.svg" />
+
+          <div class="h-[35px] flex flex-col items-start justify-start gap-[6px]">
+            <div class="flex-1 relative flex items-center z-[1]">Address</div>
+            <div class="relative text-base z-[1]">
+              7124 Landmark Tower,New York
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- foote last  -->
+    <section
+      class="self-stretch bg-orange flex flex-row items-center justify-between py-[31px] px-[300px] box-border gap-[20px] max-w-full shrink-0 text-left text-base text-white font-manrope mq900:pl-[75px] mq900:pr-[75px] mq900:box-border mq1325:pl-[150px] mq1325:pr-[150px] mq1325:box-border mq1700:flex-wrap">
+      <div class="relative bg-orange w-[1920px] h-[100px] hidden max-w-full"></div>
+      <div class="relative leading-[26px] flex items-center h-[19.1px] max-w-full z-[1]">
+        <span>
+          <span>©2022 </span>
+          <b class="[text-decoration:underline]">Kavinax Property</b>
+          <span>. All Rights Reserved.</span>
+        </span>
+      </div>
+      <div class="w-[602px] flex flex-row items-center justify-start gap-[25px] max-w-full mq900:flex-wrap">
+        <div class="flex flex-row items-center justify-start gap-[15px]">
+          <input class="m-0 relative w-[22px] h-[27px] overflow-hidden shrink-0 z-[1]" type="checkbox" />
+
+          <div class="relative leading-[26px] flex items-center h-[19.9px] z-[1]">
+            Secure Payments
+          </div>
+        </div>
+        <div
+          class="flex-1 flex flex-row items-start justify-start py-0 pr-px pl-0 box-border gap-[10px] min-w-[261px] max-w-full mq900:flex-wrap">
+          <button
+            class="cursor-pointer [border:none] pt-2.5 px-[5px] pb-[11px] bg-white rounded-8xs flex flex-row items-center justify-center z-[1]">
+            <div class="relative rounded-8xs bg-white w-[71.9px] h-[38px] hidden"></div>
+            <img class="relative w-[61.5px] h-[17.5px] object-cover z-[1]" alt=""
+              src="/public/580b57fcd9996e24bc43c530-1@2x.png" />
+          </button>
+          <button
+            class="cursor-pointer [border:none] py-[11px] pr-6 pl-[23px] bg-white rounded-8xs flex flex-row items-center justify-center z-[1]">
+            <div class="relative rounded-8xs bg-white w-[71.9px] h-[38px] hidden"></div>
+            <img class="relative w-[24.4px] h-[16.2px] object-cover z-[1]" alt=""
+              src="/public/2452453801-mastercardlogopngtransparentbackgroundmastercardlogo-1@2x.png" />
+          </button>
+          <button
+            class="cursor-pointer [border:none] pt-[11px] px-[11px] pb-[13px] bg-white flex-[0.694] rounded-8xs flex flex-row items-center justify-center box-border min-w-[47px] z-[1] mq450:flex-1">
+            <div class="relative rounded-8xs bg-white w-[71.9px] h-[38px] hidden"></div>
+            <img class="relative w-[45.6px] h-3.5 object-cover z-[1]" alt="" src="/public/visalogopngpic-1@2x.png" />
+          </button>
+          <button
+            class="cursor-pointer [border:none] p-0 bg-white flex-1 rounded-8xs flex flex-row items-center justify-center min-w-[47px] z-[1]">
+            <div class="relative rounded-8xs bg-white w-[71.9px] h-[38px] hidden"></div>
+            <img class="relative w-[67.6px] h-[38px] object-cover z-[1]" alt=""
+              src="/public/616057d976000b00045a7da3-1@2x.png" />
+          </button>
+          <button
+            class="cursor-pointer [border:none] pt-2.5 pb-3 pr-[26px] pl-[25px] bg-white rounded-8xs flex flex-row items-center justify-center z-[1]">
+            <div class="relative rounded-8xs bg-white w-[71.9px] h-[38px] hidden"></div>
+            <img class="relative w-[21.2px] h-[16.4px] object-cover z-[1]" alt=""
+              src="/public/2560pxjcb-logo-1@2x.png" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+
+</html>
