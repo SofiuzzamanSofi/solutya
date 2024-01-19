@@ -3,7 +3,7 @@ Solutya-Kavinax
 </h1>
 
 
-### Live Preview site: [Solutya-Kavinax](https://)
+### Live Preview site: [Solutya-Kavinax](https://solutya-kavinax.netlify.app)
 
 
 ## Others
